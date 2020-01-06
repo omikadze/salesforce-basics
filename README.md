@@ -129,3 +129,34 @@ B2C Commerce is broken down into these categories:
 * Merchandising and Marketing
 * Multi Site Management and Localization
 * B2C Commerce Extensions
+
+#### B2C Commerce Storefront
+
+The B2C Commerce storefront is essentially an ecommerce site. But it’s so much more than just a website with an online cart. Brands can differentiate, manage, and customize shoppers’ ecommerce experience.
+
+Capabilities include the Storefront Reference Architecture (SFRA), a robust reference architecture that helps brands build and launch sites quickly and easily using mobile-first best practices. While each site has its own feature-rich storefront, retailers can use the reference architecture to create it. It sits outside the platform API layer and is fully customizable. It lets you create storefronts that support multiple languages and currencies. It provides a modern shopping cart and checkout that features Save for Later (to save an item to a wishlist for a logged in user), optimized user flows, Apple Pay, and other wallet options to make the checkout process as fast and seamless as possible.
+
+Capabilities also include prebuilt integrations to extend site functionality, and open APIs so that your site can connect to any third-party data or applications like user reviews.
+
+#### Merchandising and Marketing
+
+Merchandising and Marketing capabilities in B2C Commerce draw on the power and insights of AI, giving retailers limitless opportunities for personalized engagement with their customers. These capabilities help brands fuel ecommerce growth with features that empower:
+
+* Product, pricing, and catalog management, so that marketers and merchandisers can sync products and pricing across categories, catalogs, currencies, and sites
+* Merchandising and promotion management, to quickly launch campaigns and promotions
+* Site search and guided navigation that help online shoppers zero in on the perfect product
+* Faster AI-powered personalization that uses machine learning to deliver personalized offers and product recommendations
+
+#### Multi Site Management and Localization
+
+Global retail brands need unique, localized sites for each market. B2C Commerce is a leader in internationalization and helps customers easily create and manage additional, geo-specific sites that encompass different customs, cultures, currencies, and languages. For example, a retailer focusing on the United States, France, and Germany is most likely to have a unique website dedicated to each country. Brands can target their content, offers, and products by language, country, region, state, or city.
+
+Multi Site Management also empowers regional marketing teams with a global reference storefront that lets them build and launch sites quickly with multi-lingual, multi-currency logic. Plus, user interfaces are available in English, Chinese, Japanese, French, Italian, Korean, and Portuguese
+
+#### B2C Commerce APIs
+
+B2C Commerce APIs take brands beyond the website to use digital capabilities across social, mobile, and even in-store channels. These include:
+
+* APIs to connect with third-party applications
+* Social media extensions, to extend commerce into social channels and online communities, such as Instagram and Facebook
+* In-store endless aisle and “clienteling,” to help in-store shoppers find the item they need, even if it’s not available at that specific store location. (This is a reference app that uses B2C Commerce customer, product, and inventory data to enable store associates to access this information to complete sales in the store.)
