@@ -62,3 +62,7 @@ Here are some of the core standard objects you’ll be using with Salesforce, an
 * Opportunities are qualified leads that you’ve converted. When you convert the Lead, you create an Account and Contact along with the Opportunity.
 
 Salesforce CRM allows you to manage and access your data in sophisticated ways that you could never do with a simple spreadsheet. Your records can be linked together to show how your data is related, so you can see the whole picture.
+
+## Get Started with Commerce Cloud
+
+### What Is Commerce Cloud?
