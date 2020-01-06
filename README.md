@@ -22,3 +22,4 @@ Salesforce takes all of that important data and organizes it into a simple user 
 * Close more business
 
 And because it’s stored on our secure cloud, you can access your data anytime, anywhere, whether you’re on desktop or mobile.
+![GitHub Logo](/photo2.png)
