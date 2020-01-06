@@ -8,3 +8,5 @@ Salesforce is your customer success platform, designed to help you sell, service
 So what does that really mean? Well, before Salesforce, your contacts, emails, follow-up tasks, and prospective deals might have been organized something like this:
 
 ![GitHub Logo](/photo1.png)
+
+It’s hard to get the full picture of your prospective customer. And you certainly can’t access the data from anywhere, anytime, nor can your manager or executives see your progress on deals in flight/
