@@ -115,7 +115,7 @@ With Order Management, merchants can leverage the extensibility of the Salesforc
 Endless Aisle for B2C Commerce provides brands with physical stores the ability to offer shoppers limitless product choice and eliminate lost sales by extending digital commerce into the store. Brands can offer to sell and ship any product to their customers, regardless of its location—helping to deliver product faster and more cost effectively. And brands can also empower store associates with real-time access to digital inventory.
 
 
-#### Why Does Commerce Cloud Need Different Products for B2B and B2C Commerce?
+### Why Does Commerce Cloud Need Different Products for B2B and B2C Commerce?
 
 Commerce sites built for business users (B2B) are designed for a smaller set of known customers who often make large or frequent purchases. For example, a chemical manufacturer can sell to 1,000 factories that reorder each month. B2B sites need to make it easy for customers to make large orders, and then reorder the right products quickly.
 
