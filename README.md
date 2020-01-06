@@ -52,3 +52,13 @@ Salesforce organizes your data into objects and records. You can think of object
 In Salesforce, objects are accessed via the navigation menu. Select any record to drill into a specific account, contact, opportunity, or any other record in Salesforce.
 
 So, that’s objects, records, and more, and now you have some insight into how your data is organized in Salesforce using our spreadsheet example. But unlike an actual spreadsheet, your Salesforce data is stored in our trusted, secure cloud and has an easy-to-use interface, which you can access both from the desktop and your mobile device. So it’s similar to a spreadsheet, but in Salesforce, your data is all tracked, shared, and has apps connected to it. Salesforce comes with a set of standard objects already set up and ready for use.
+
+### Salesforce Standard Objects
+Here are some of the core standard objects you’ll be using with Salesforce, and a description of how each one is used.
+
+* Accounts are the companies you’re doing business with. You can also do business with individual people (like solo contractors) using something called Person Accounts.
+* Contacts are the people who work at an Account.
+* Leads are potential prospects. You haven’t yet qualified that they are ready to buy or what product they need. You don’t have to use Leads, but they can be helpful if you have team selling, or if you have different sales processes for prospects and qualified buyers.
+* Opportunities are qualified leads that you’ve converted. When you convert the Lead, you create an Account and Contact along with the Opportunity.
+
+Salesforce CRM allows you to manage and access your data in sophisticated ways that you could never do with a simple spreadsheet. Your records can be linked together to show how your data is related, so you can see the whole picture.
