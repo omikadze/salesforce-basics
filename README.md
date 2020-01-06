@@ -46,4 +46,5 @@ In Salesforce, all of this information is stored securely in the cloud.
 ### How Salesforce Organizes Your Data
 
 Salesforce organizes your data into objects and records. You can think of objects like a tab on a spreadsheet, and a record like a single row of data.
+![GitHub Logo](/photo3.png)
 
