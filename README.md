@@ -74,3 +74,21 @@ Commerce Cloud was created in July 2016, when Salesforce acquired Demandware, an
 In 2018, Commerce Cloud expanded beyond B2C ecommerce with the acquisition of CloudCraze, a leader in ecommerce designed for organizations selling to business customers. What was CloudCraze is now the Salesforce B2B Commerce product.
 
 Now Commerce Cloud spans across B2C and B2B to offer leading ecommerce solutions for all types of companies looking to sell products and services online.
+
+### What Are the Commerce Cloud Products and Capabilities?
+
+Commerce Cloud features two core capabilities: B2B Commerce and B2C Commerce.
+
+#### B2B Commerce
+Consumers aren’t the only ones buying online. Businesses need to make purchases too. For example, a wholesaler can place an order of merchandise to stock multiple stores for an entire season, or a factory can purchase replacement parts for a specific type of machine. B2B Commerce powers sites for many of the world’s largest companies that span manufacturing, consumer goods, technology, healthcare, and more.
+
+These sites are designed for extremely large carts and purchases consisting of hundreds or thousands of items. They include B2B-specific functionality such as:
+
+* Authenticated sites, including logins for each visitor
+* Shopping carts that can accommodate hundreds of items per order
+* Two-click reorders to make large, frequent orders fast and easy
+* Custom storefront themes for a unique look and feel for each account
+* Specific product catalogs by account for a selected subset of products
+* Negotiated/contract pricing by account or by customer segment
+* Complex shipping functionality allowing for multiple delivery dates and locations
+* Multiple payment types like credit card, purchase order, and ACH
