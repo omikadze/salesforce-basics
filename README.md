@@ -66,3 +66,5 @@ Salesforce CRM allows you to manage and access your data in sophisticated ways t
 ## Get Started with Commerce Cloud
 
 ### What Is Commerce Cloud?
+
+Commerce Cloud is a key part of the Salesforce Customer Success Platform and offers ecommerce solutions for B2C (business to consumer) and B2B (business to business) customers. That means that organizations purchase Commerce Cloud to provide the best ecommerce websites to their customers who are shopping online—whether they are consumers buying the latest fashion or businesses making a large wholesale purchase.
