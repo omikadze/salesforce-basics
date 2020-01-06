@@ -68,3 +68,9 @@ Salesforce CRM allows you to manage and access your data in sophisticated ways t
 ### What Is Commerce Cloud?
 
 Commerce Cloud is a key part of the Salesforce Customer Success Platform and offers ecommerce solutions for B2C (business to consumer) and B2B (business to business) customers. That means that organizations purchase Commerce Cloud to provide the best ecommerce websites to their customers who are shopping online—whether they are consumers buying the latest fashion or businesses making a large wholesale purchase.
+
+Commerce Cloud was created in July 2016, when Salesforce acquired Demandware, an industry leader in ecommerce sites and solutions designed with the shopper in mind. The Demandware technology has grown and evolved to become the Salesforce B2C Commerce product.
+
+In 2018, Commerce Cloud expanded beyond B2C ecommerce with the acquisition of CloudCraze, a leader in ecommerce designed for organizations selling to business customers. What was CloudCraze is now the Salesforce B2B Commerce product.
+
+Now Commerce Cloud spans across B2C and B2B to offer leading ecommerce solutions for all types of companies looking to sell products and services online.
