@@ -120,3 +120,12 @@ Endless Aisle for B2C Commerce provides brands with physical stores the ability 
 Commerce sites built for business users (B2B) are designed for a smaller set of known customers who often make large or frequent purchases. For example, a chemical manufacturer can sell to 1,000 factories that reorder each month. B2B sites need to make it easy for customers to make large orders, and then reorder the right products quickly.
 
 Commerce sites built for the consumer (B2C)—the kind that all of us use for regular online shopping—are designed to attract a large number of guest shoppers to the site. Once a shopper is on the site, companies want to show them the most relevant products, let them quickly add a few (or several!) products to their cart, and then pay and finish the transaction quickly. It’s important for B2C sites to scale for big sales or holidays when millions of shoppers can be on the site at the same time.
+
+### The Key Categories of B2C Commerce
+
+B2C Commerce is broken down into these categories:
+
+* Commerce Storefront
+* Merchandising and Marketing
+* Multi Site Management and Localization
+* B2C Commerce Extensions
