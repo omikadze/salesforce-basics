@@ -92,3 +92,24 @@ These sites are designed for extremely large carts and purchases consisting of h
 * Negotiated/contract pricing by account or by customer segment
 * Complex shipping functionality allowing for multiple delivery dates and locations
 * Multiple payment types like credit card, purchase order, and ACH
+
+#### B2C Commerce
+
+B2C Commerce lets brands create and coordinate shoppers’ online experiences and transactions across digital channels and devices. Web and mobile sites are a huge part of the online experience. Brands can launch and manage responsive ecommerce sites—for web and mobile—that have rich online storefronts, shopping cart and checkout functionalities, and full customization capabilities.
+
+For many retailers, one site isn’t enough. When retailers have more than one brand, or when they sell in multiple countries, they typically need different sites for each brand and geography. Commerce Cloud lets retailers launch sites for multiple brands and geographies and then manage them all in a single place.
+
+But shoppers don’t just visit web and mobile sites, they also interact with brands through email, social media, and in stores. By integrating their ecommerce sites with their marketing and service solutions, brands can make every email and social media interaction more personalized and relevant to shoppers. And by bringing ecommerce into the store through kiosks or store associate application they can provide shoppers with improved service and access to more inventory than what is available in store, often helping to “save the sale!”
+
+##### Einstein for B2C Commerce
+Einstein for B2C Commerce features are directly embedded into B2C Commerce to empower marketers and merchandisers to use AI without having to hire a data scientist. Using the wealth of their commerce data, they now have the power to make smarter decisions and supercharge personalization across commerce journeys.
+
+Einstein intelligence powers five key B2C Commerce capabilities: Einstein Product Recommendations, Einstein Predictive Sort, Einstein Commerce Insights, Einstein Search Dictionaries, and Einstein Search Recommendations.
+  
+##### Order Management for B2C Commerce
+Order Management for B2C Commerce gives brands full visibility into orders and inventory data. Self-service tools for shoppers, and smart up-sell and cross-sell opportunities for service agents inspire shopper loyalty and drive revenue for companies.
+
+With Order Management, merchants can leverage the extensibility of the Salesforce Platform to design complex processes with flow, and connect effortlessly to logistics partners via the AppExchange and MuleSoft. This gives companies the flexibility to ship from anywhere, creating efficiencies that save time and money.
+
+##### Endless Aisle for B2C Commerce
+Endless Aisle for B2C Commerce provides brands with physical stores the ability to offer shoppers limitless product choice and eliminate lost sales by extending digital commerce into the store. Brands can offer to sell and ship any product to their customers, regardless of its location—helping to deliver product faster and more cost effectively. And brands can also empower store associates with real-time access to digital inventory.
