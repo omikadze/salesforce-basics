@@ -9,4 +9,14 @@ So what does that really mean? Well, before Salesforce, your contacts, emails, f
 
 ![GitHub Logo](/photo1.png)
 
-It’s hard to get the full picture of your prospective customer. And you certainly can’t access the data from anywhere, anytime, nor can your manager or executives see your progress on deals in flight/
+It’s hard to get the full picture of your prospective customer. And you certainly can’t access the data from anywhere, anytime, nor can your manager or executives see your progress on deals in flight.
+
+Salesforce takes all of that important data and organizes it into a simple user interface. It’s one place for you to:
+
+* Manage all your contacts
+* Work with your prospective customers
+* Organize tasks and to-do items
+* Focus on the right deals
+* Collaborate with your team
+* Showcase your big wins
+* Close more business
