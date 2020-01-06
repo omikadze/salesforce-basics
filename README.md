@@ -160,3 +160,20 @@ B2C Commerce APIs take brands beyond the website to use digital capabilities acr
 * APIs to connect with third-party applications
 * Social media extensions, to extend commerce into social channels and online communities, such as Instagram and Facebook
 * In-store endless aisle and “clienteling,” to help in-store shoppers find the item they need, even if it’s not available at that specific store location. (This is a reference app that uses B2C Commerce customer, product, and inventory data to enable store associates to access this information to complete sales in the store.)
+
+### Einstein for Commerce
+
+Einstein for Commerce features are directly embedded into Salesforce B2C Commerce to delight shoppers, make merchants more productive, and most importantly—grow revenue. This is all achieved through AI and machine learning, using their own wealth of commerce data.
+
+#### Einstein Product Recommendations
+
+Product Recommendations uses machine learning to make suggestions personalized to a consumer’s shopping experience. Whether a shopper is a guest or known—that is, signed in to an account—these recommendations suggest the most relevant products throughout a consumer’s shopping journey to keep them engaged on the web site, and help them browse more efficiently.
+
+Merchants can choose from multiple recommendation types. They can use traditional recommendations that show like-for-like products, for example, where a shopper sees blue shoes recommended on a product detail page for another pair of blue shoes.
+Einstein Product Recommendations present customers with the right products at the right time. They encourage more purchases and maximize a brand’s revenue. But they do something else that’s just as important, if less quantifiable. They offer each customer a delightful shopping experience through personalized—perhaps even thoughtful—attention to their interests, based on the items they themselves have shown interest in.  And happy shoppers are good for business.
+
+#### Einstein Predictive Sort
+
+With Einstein Predictive Sort, brands can automatically personalize the order of products shown on each search results or category page. This means products most relevant to a shopper show up first based on their past browsing and buying behavior. Predictive Sort makes the web experience more enjoyable since shoppers don’t have to scroll through as many products and pages to find items of interest.
+
+It’s even more impactful for shoppers using a mobile device. Mobile screens typically show fewer products per page, and shoppers don’t like to click and scroll through several pages to find what they’re looking for. Einstein Predictive Sort is a simple way to make the mobile shopping experience faster and more seamless.
