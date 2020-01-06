@@ -23,3 +23,19 @@ Salesforce takes all of that important data and organizes it into a simple user 
 
 And because it’s stored on our secure cloud, you can access your data anytime, anywhere, whether you’re on desktop or mobile.
 ![GitHub Logo](/photo2.png)
+
+### Who sees what
+
+Access determines your ability to open and interact with data stored in Salesforce. The data you can create, view, edit, and delete is determined by settings your admin maintains. Access can be simple or multilayered, depending the complexity of your company’s needs. The important thing you need to know is that Salesforce has options for who can see and edit data, and your admin helps to set these up and maintain them.
+With the right security enabled, your whole company can be on Salesforce, and one of the best reasons to do that is to harness the power of collaboration.
+
+### Collaboration using Salesforce
+
+In addition to technology for managing your sales process, Salesforce includes a platform for collaboration. You can create groups, follow people and topics, ask questions, post informal polls, share files and links, and mention colleagues with whom you’d like to connect. You can also ask questions and get answers, crowdsourcing expertise from across your company. You can find experts who can help you with overcoming objections as they come up. You can search for competitive information to help you through the negotiation stage. You can get help from your leaders and teammates as you work on steps to close.
+
+But perhaps the best part about collaborating in Salesforce is that it’s all stored for future reference. Rather than having key insights and answers to important questions living in individual email inboxes or in hallway conversations, collaboration in Salesforce is accessible and searchable. 
+
+And because it’s in Salesforce, this is collaboration that can happen in context, right on individual deals, tasks, support issues, and more. This is the power of collaboration combined with CRM.
+
+### What Is CRM?
+
