@@ -177,3 +177,49 @@ Einstein Product Recommendations present customers with the right products at th
 With Einstein Predictive Sort, brands can automatically personalize the order of products shown on each search results or category page. This means products most relevant to a shopper show up first based on their past browsing and buying behavior. Predictive Sort makes the web experience more enjoyable since shoppers don’t have to scroll through as many products and pages to find items of interest.
 
 It’s even more impactful for shoppers using a mobile device. Mobile screens typically show fewer products per page, and shoppers don’t like to click and scroll through several pages to find what they’re looking for. Einstein Predictive Sort is a simple way to make the mobile shopping experience faster and more seamless.
+
+#### Einstein Search Recommendations
+
+Einstein Search Recommendations powers personalized type ahead search guidance for each individual shopper on site. This Google-ifys the brand’s site search so that shoppers are automatically guided to the best search terms for them.
+
+For example, if one shopper starts to type the letter s, she might see the word sandals autocomplete for her. This is based on her past shopping and browsing history. If another shopper types the letter s, he might see the word sneakers autocomplete based on his history.
+
+#### Einstein Commerce Insights
+
+Einstein Commerce Insights empowers merchandisers to interpret purchasing behavior using a powerful shopping basket analysis dashboard. Merchandisers can choose key items in their inventory and learn which products shoppers most commonly purchase along with them. Merchandisers can drill into data on specific products based on date range, and gain insight into metrics such as product-specific sales and top “co-purchase” categories.
+
+#### Einstein Search Dictionaries
+
+Einstein Search Dictionaries consumes all the site searches and surface terms that are used in searches, but not yet in the retailer’s keyword list. It then makes recommendations to merchandisers, for example, synonyms that can be added to the list. Before, if retailers wanted to find missing search terms and pick the synonyms list to add them to, they had to sift through a long spreadsheet and guess which one they wanted.
+
+Einstein Search Dictionaries analyzes data across B2C Commerce to find relationships between search terms, and then recommends the synonym list to add them to. For example, a shopper searching for “mauve sweater” might not get any results. But Einstein Search Dictionaries, seeing a potential relationship—mauve being sort of pink—will recommend adding “mauve” to the synonym list for “pink” and “purple.” Now, a shopper looking for a "mauve sweater" might see exactly what they want. The benefits for shoppers and retailers are clear. Shoppers aren’t disappointed, coming away empty-handed when they can’t find the stuff they want. Retailers benefit in multiple ways: by not losing a sale to a customer who can’t find what's actually in stock, and by reducing some of their workload so they can focus on other important site merchandising tasks.
+
+### Learn About Commerce Cloud Order Management
+
+Order Management for B2C Commerce gives retailers an all-inclusive view of customers, orders, returns and exchanges, inventory, products, and promotions across physical and digital channels. This feature helps retailers process orders and optimize their inventory—and so much more.
+
+If you’ve bought anything online, you probably relied on an order management system when you checked on your order or even looked up previous orders. But Order Management also drives more complex, “cross-channel” transactions. Have you ever bought something online and then picked it up in the store? Or returned to a store an item you bought online? You were engaging in a cross-channel transaction, a shopping experience that is becoming more and more popular with consumers.
+
+Order Management, an add-on to B2C Commerce, shares order data in real time with B2C Commerce. That's why it's "for B2C Commerce!"
+
+
+#### Capabilities of Commerce Cloud Order Management for B2C Commerce
+
+* Enterprise Inventory
+
+At the core of every successful shopping experience is an accurate view of the inventory that’s available for sale. Enterprise Inventory makes all available inventory visible—whether it's in stores or in distribution centers—in a single, authoritative available-to-sell record. So all selling and service channels have an accurate representation of sellable inventory no matter where it sits. This makes more units of inventory available to shoppers, rather than just the units sitting in an individual area or store. It also prevents over sells, which can frustrate consumers and retailers alike.
+
+* Distributed Order Management
+
+The Order Management engine, sometimes called Distributed Order Management, encompasses all of the sophisticated logic that it takes to allocate items, fulfill an order and manage the entire order life cycle. This baked-in intelligence means retailers can accept orders and returns from multiple selling channels—online, mobile, in-store. Retailers can process invoices, payments, and sales tax. And it lets retailers set allocation rules for backorders, preorders, split orders, and drop-ship orders to ensure each and every one is fulfilled cost-effectively and efficiently.
+
+* Store Fulfillment
+Mobile optimized, real-time tools for retailers let store associates quickly and easily handle fulfillment requests that are ready for shipment. The Store Fulfillment feature also enables retailers to have products at the ready for a customer who wants to pick items up in-store.
+
+* Customer Service
+
+The customer service features of Order Management enable universal order intervention. From any channel—phone, web, store, even customer self-serve—customer service reps have a complete view of shoppers, the product catalog, inventory, and orders. So reps and associates can provide the best possible service when they handle order inquiries or modifications.
+
+* Complete Order Data
+With Order Management, retailers have access to order information at all stages of the process, from where and how the order was generated to where and how it is being delivered. This gives retailers more control and visibility into each individual unit of merchandise from the moment of purchase to the moment of delivery.
+
