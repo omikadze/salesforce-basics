@@ -287,3 +287,8 @@ You’re back at the front page and you spy a pair of goggles. It’s too late t
 People who create accounts at an ecommerce site can log in whenever they shop there. Logged-in shoppers have special privileges like wish lists and saved payment information that save them time and make them feel special.
 
 Now, all you have to do is start packing for your trip.
+
+### B2C Commerce Features
+
+Lots of retail companies sell their products online—in fact most do. But finding the right tools and services to make ecommerce dreams come true can be daunting. That’s where B2C Commerce comes in. What is B2C Commerce, and how can you relate it to what you already know about online shopping?
+
