@@ -225,3 +225,10 @@ The customer service features of Order Management enable universal order interve
 
 With Order Management, retailers have access to order information at all stages of the process, from where and how the order was generated to where and how it is being delivered. This gives retailers more control and visibility into each individual unit of merchandise from the moment of purchase to the moment of delivery.
 
+### Learn About B2B Commerce
+
+While Salesforce B2C Commerce focuses on online retail shoppers, there’s another whole area of ecommerce with its own demands and capabilities—B2B—business to business.
+
+Salesforce B2B Commerce enables organizations to create ecommerce storefronts that are specifically designed for businesses making large volume purchases from other businesses online. B2B commerce customers need easy online access to suppliers so they can buy products to run their businesses.
+
+ 
