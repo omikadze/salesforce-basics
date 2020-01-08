@@ -214,6 +214,7 @@ At the core of every successful shopping experience is an accurate view of the i
 The Order Management engine, sometimes called Distributed Order Management, encompasses all of the sophisticated logic that it takes to allocate items, fulfill an order and manage the entire order life cycle. This baked-in intelligence means retailers can accept orders and returns from multiple selling channels—online, mobile, in-store. Retailers can process invoices, payments, and sales tax. And it lets retailers set allocation rules for backorders, preorders, split orders, and drop-ship orders to ensure each and every one is fulfilled cost-effectively and efficiently.
 
 * Store Fulfillment
+
 Mobile optimized, real-time tools for retailers let store associates quickly and easily handle fulfillment requests that are ready for shipment. The Store Fulfillment feature also enables retailers to have products at the ready for a customer who wants to pick items up in-store.
 
 * Customer Service
@@ -221,5 +222,6 @@ Mobile optimized, real-time tools for retailers let store associates quickly and
 The customer service features of Order Management enable universal order intervention. From any channel—phone, web, store, even customer self-serve—customer service reps have a complete view of shoppers, the product catalog, inventory, and orders. So reps and associates can provide the best possible service when they handle order inquiries or modifications.
 
 * Complete Order Data
+
 With Order Management, retailers have access to order information at all stages of the process, from where and how the order was generated to where and how it is being delivered. This gives retailers more control and visibility into each individual unit of merchandise from the moment of purchase to the moment of delivery.
 
