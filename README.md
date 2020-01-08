@@ -294,3 +294,85 @@ Lots of retail companies sell their products online—in fact most do. But findi
 
 ![Photo](./photo4.png)
 
+B2C Commerce is a set of tools, services, and processes that you use to configure ecommerce sites. Whether your customers are browsing on their desktop or a mobile device, we’ve got you covered. It’s about product details that help shoppers make decisions, targeted discounts, speedy checkout, and underlying tools that track behavior and data. Lots of features come standard, and the B2C Commerce open development environment lets you customize or extend it further.
+
+In B2C Commerce, a site is the application and associated code that runs a storefront, where shoppers go to buy things online. You can sell your products internationally if you want, because B2C Commerce data and storefronts are localizable. B2C Commerce supports both language- and country-specific locales.
+
+If you create or maintain B2C Commerce sites, you’re probably a merchandiser, administrator, or developer. Merchandisers create marketing campaigns and work with site data such as product details, images, and search. Administrators configure sites and make sure they run properly. Developers develop the sites. This module is designed mainly for merchandisers, but if you’re an admin or a developer, you’ll find information here that’s helpful for you, too.
+
+Let’s start by learning about the B2C Commerce standard features: search, navigation, product, content, discounts, logged-in users, and checkout. You configure these features in Business Manager, an online B2C Commerce tool for anyone who creates and maintains B2C Commerce sites.
+
+![Photo](./photo5.png)
+
+#### How Shoppers Find Your Stuff and Navigate Your Storefront
+
+Good ecommerce search and navigation help shoppers find what they want fast. You want shoppers to find what they’re looking for, buy it, and keep coming back.
+
+Here are some key terms you should know.
+
+* Keyword Search—The shopper types a word in the search field.
+* Search Suggestion (aka search-as-you-type)—After the shopper types the first few letters of a word, B2C Commerce displays a list of clickable suggestions.
+* Search Results—The site displays clickable product tiles or a list of products that fit the search criteria.
+* Navigation—The shopper clicks tabs or breadcrumbs to get closer to the products they want.
+* Storefront Sorting—The shopper selects from a menu to change which products appear first in the search results.
+* Search Refinement—The shopper selects price range, color, and size to narrow the search.
+* No Results Found—This page opens when there are no results.
+
+![Photo](./photo6.png)
+
+#### How You Showcase Your Products
+
+While search is where a shopper types text into a search field to find something, navigation is when they click on category tabs or select subcategories to navigate the site. In the BeachCloud storefront we talked about in the previous unit, our imaginary shopper clicked the Accessories (category) tab and then the Footwear (sub-category) tile.
+
+![Photo](./photo7.png)
+
+B2C Commerce organizes sites using categories. A catalog is a container for categories, and a category is a container for products. Each product is identified by an SKU or part number. Other information about the product includes size, color, specifications, brand, price, graphics, and videos. Videos are typically supported outside B2C Commerce, such as with a content delivery network (CDN).
+
+You can configure products as masters and variants. For example, each variant of the master product can specify a unique size and color, with corresponding graphics.
+
+![Photo](./photo8.png)
+
+Product sets are where your shoppers can buy a group (set) of products or individual products in the set. For example, they can order a wardrobe—pants, shirt, and hat—all together or separately. Product bundles are multiple products that are orderable only as a unit, such as a gaming bundle that includes a video game console and several games.
+
+#### How Shoppers Compare Your Products
+
+After searching for an item, shoppers see a search results page where they can click a tile or an item in a list.
+
+![Photo](./photo9.png)
+
+To make it easy for shoppers to compare products, the product details are consistent. Graphics and video are in the same place, the list of product information has the same format and information types, and pictures display in standard sizes. Consistency improves your shoppers' experience because they can focus on the differences between products, not the difference between page elements.
+
+#### How You Give Shoppers a Discount
+
+Getting a discount feels awesome! You use Business Manager to create all kinds of discounts for your customers. Start by creating qualifiers, then promotions, and then campaigns.
+
+A qualifier is a condition that shoppers must meet to be eligible for a discount. These are qualifiers.
+
+* Coupons support direct marketing efforts. You can create single-use coupons and coupons that shoppers can use more than once.
+* Customer groups can be a list of specific customers or customers that meet certain criteria such as age and geographic location.
+* Source codes are available via a link on an affiliate website. Shoppers search on one site, click a link, and are directed to another site. A qualifier code in the cookie provides the discount at the second site.
+
+In Business Manager, you can create three types of promotions.
+
+* Product—Give shoppers a free or discounted product.
+* Order—Give shoppers a discount on their order.
+* Shipping—Give shoppers a discount or an upgrade on shipping.
+
+A B2C Commerce campaign contains one or more experiences that shoppers have in your storefront. In this module, we focus on the promotion experience. You can create a spring campaign, for example, that offers 10% off on pants, 20% off orders over a specified amount, and free shipping. You configure each discount in a promotion, then configure each promotion as an experience within a campaign.
+
+#### How You Reward Logged-In Users
+
+Shoppers who create an account on your ecommerce site and log in when they shop are loyal buyers. You can reward their loyalty by giving them special discounts or providing services such as wish lists, gift registries, detailed order history, and delivery tracking. You can also store credit card data and addresses so logged-in shoppers can check out and pay faster.
+
+#### How Your Shoppers Check Out
+
+After shoppers select the items they want to buy, they check out and pay for their purchases. This process should be easy and fast.
+
+![Photo](./photo10.png)
+
+Helping your shoppers check out fast means collecting key information from them as painlessly as possible. B2C Commerce lets you do that by minimizing the number of pages in your checkout flow and the number of buttons or links a shopper has to click—anything that can detract from the buying experience and prevent a sale.
+
+#### Third Party Integrations
+
+B2C Commerce comes with all the standard features we’ve looked at so far in this module. Through the Salesforce B2C Commerce LINK Technology Program, B2C Commerce also integrates with third-party applications that handle processes such as tax calculation, shipping carriers, and payment providers.
+
