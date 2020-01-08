@@ -376,3 +376,8 @@ Helping your shoppers check out fast means collecting key information from them 
 
 B2C Commerce comes with all the standard features we’ve looked at so far in this module. Through the Salesforce B2C Commerce LINK Technology Program, B2C Commerce also integrates with third-party applications that handle processes such as tax calculation, shipping carriers, and payment providers.
 
+## Salesforce B2C Commerce for Merchandisers ( Configure product listings, make them easy to find, and give shoppers discounts they love. )
+
+### B2C Commerce Product Data
+
+
