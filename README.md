@@ -232,3 +232,58 @@ While Salesforce B2C Commerce focuses on online retail shoppers, there’s anoth
 Salesforce B2B Commerce enables organizations to create ecommerce storefronts that are specifically designed for businesses making large volume purchases from other businesses online. B2B commerce customers need easy online access to suppliers so they can buy products to run their businesses.
 
  
+## Salesforce B2C Commerce (Explore how B2C Commerce transforms the online shopping experience)
+
+### B2C Commerce Shopping Experience
+
+In this module, you’ll learn what ecommerce is and how B2C Commerce helps you delight the customers who buy your products online. After you earn this badge, you’ll better understand what your stakeholders—partners, admins, developers, and merchandisers—are talking about when they talk about B2C Commerce.
+
+We build B2C Commerce storefront applications with the shopper in mind. We want shoppers to get what they want, return again and again, and tell their friends and family what a great experience they had. Providing an online shopping experience that’s fun, fast, and easy makes everyone happy.
+
+#### The Shopper’s View
+
+Let’s say you’re treating yourself to a tropical vacation next month. You’ve done a little surfing on other vacation trips, and you’re curious about riding the waves in a new location. Maybe you’ll discover when you get there that the waves are a tad out of your league. Maybe you’ll go to nice quiet reef instead and play with the tropical fish and the green sea turtles.
+
+Whatever you do, you’re going to have a great time, and you need some fabulous gear!
+
+You take a deep breath, log in to your smartphone or computer, and open a cool site called BeachCloud that sells beach products.
+
+You click the Apparel tab, then the tile that says Bathing Suits. There are other tabs, such as Accessories, but you ignore those for now.
+
+Like many B2C Commerce storefronts, the BeachCloud site organizes products by category, and each category has a tab. When you click a tab to see products in that category, you’re navigating the site.
+
+You don't see what you want, so you enter stripd bathing suit into the search field. Woops, typo!
+
+But then you see a page that asks if you really meant “striped bathing suit.” And there’s a link.
+
+This is called searching.
+
+You click the link and a pink striped bathing suit displays on the very first page. It’s just what you’re looking for.
+
+You hover your mouse over the image and it zooms in, showing more details. You’re viewing product content.
+
+You click a video link and see a model wearing the suit and moving so you can see it from different angles. The video is also content.
+
+The suit looks just right. You select your size and click Buy.
+
+Now you’re on a roll. You click the Accessories tab and see tiles for footwear, towels, and sunglasses. You click the Towels tile and select a big, thirsty-looking towel with bright stripes, then click Buy.
+
+You spy a panel at the top of the page that says, “All Surfboards Half Off.”
+
+This is a promotion with a fabulous discount.
+
+It’s your lucky day. You click the panel to open a page showing a whole lot of surfboards. You pick one with red and pink stripes and click Buy.
+
+You go back to your cart and view your new list, which now includes the flip-flops.
+
+You didn't know it when you made your original choices, but the bathing suit comes with a free bag. There’s a link to choose the bag you want beneath the bathing suit line item. You click the link, pick the yellow bag, and click Choose. Your bag is now listed beneath the bathing suit in the cart.
+
+Checkout is fast and easy.
+
+You enter your name and address, click Same as Billing, enter your credit card information, and select a shipping method. Because you’re in no rush, BeachCloud waives the shipping fee. Your order looks great, and you have free shipping. You’re happy. You click Place Order.
+
+You’re back at the front page and you spy a pair of goggles. It’s too late to add to your order now, but maybe you’ll add the goggles to your wish list. You wonder if you should create a BeachCloud account so you get more cool deals that help you save up for your next vacation.
+
+People who create accounts at an ecommerce site can log in whenever they shop there. Logged-in shoppers have special privileges like wish lists and saved payment information that save them time and make them feel special.
+
+Now, all you have to do is start packing for your trip.
