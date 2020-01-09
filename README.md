@@ -380,4 +380,16 @@ B2C Commerce comes with all the standard features we’ve looked at so far in th
 
 ### B2C Commerce Product Data
 
+In this unit, we discuss how catalogs, categories, products, content, and libraries work in your organization’s B2C Commerce storefront.
 
+A quick word about organizations, sites, and storefronts. Your organization contains your sites, and each of your sites can contain one or more storefronts. Your organization can have:
+
+* One site with one storefront
+* One site with multiple storefronts
+* Multiple sites and multiple storefronts
+
+#### Catalogs
+
+A catalog is a collection of categories, products, and images. Your company can have one or many catalogs. You can only assign one catalog—the storefront catalog—to your site.
+
+![catalog](./photo11.png)
