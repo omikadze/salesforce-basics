@@ -407,3 +407,56 @@ If you want to manage your products in a catalog with the same structure as an e
 Catalog A is the standard catalog, while Catalog B is the storefront catalog. They both contain the same product IDs, but they have different categories. Catalog A categories are from the system of record. Catalog B categories display on the storefront.
 
 You don’t have to create your data in Business Manager. You can import data such as product details, inventory, prices, content, images, and video from another system.
+
+#### Categories
+
+Categories define the catalog structure. We call the top-level category in a catalog the root category, though it doesn’t actually have a name. All the categories you create are a child of the root category.
+
+#### Products
+
+A product is owned by one catalog. You can only edit the product in the catalog that owns it. However, you can include the product in any combination of catalogs and categories in your sites. When you edit a product in the catalog that owns it, your edits are reflected automatically in the other catalogs the product are included in.
+
+To display in a storefront, a product must be:
+
+* Assigned to a storefront category
+* Searchable
+* Online
+* Available
+
+You use Business Manager to configure these settings. The Online setting means the product can display on the site.
+
+In Business Manager, you can create the following types of products.
+
+* Standard — A product that you sell and display by itself. They don’t have variations, such as different sizes or colors.
+* Master — A representation of all the variations of a product. For example, the Cloud Kicks shoe company makes a shoe called the Mesospheric that comes in several sizes and colors. Mesospheric is a variation master. Your shoppers can’t buy it directly.
+* Variation Group—A group of products that share an attribute, such as color or size. The variation group belongs to a master product. For example, the Mesopheric shoe comes in several colors and sizes. All sizes of Mesopheric shoes that come in blue are a variation group.
+* Variation — A specific variation of a master product. For example, if the Mesospheric is the variation master, then a variation product is a pair of size 10, blue Mesospheric shoes.
+* Set — Multiple products that you display together, which shoppers can buy either together or separately. For example, an accessories kit that includes a hairbrush, comb, and mirror is a product set if shoppers can also buy the individual products separately.
+* Bundle—Multiple products that you sell only as a group. For example, a gaming bundle that includes a video game console and several games is a product bundle if shoppers can’t buy the console or games separately.
+* Option — Optional accessories, upgrades, or the like that come with a product, yet have a separate price and display name, and no thumbnail image. They are not separately orderable or searchable. An example is warranties for different time periods.
+
+#### Inventory
+
+B2C Commerce provides built-in inventory capability that you can use with your storefront via inventory lists. They list product IDs that map to inventory details such as allocation amounts, preorder and backorder handling, and in-stock dates.
+
+The inventory list you assign to a site represents the online inventory of that site. You can assign an inventory list to one or more sites, but a site can only have one inventory list. You can assign an inventory list to multiple sites to share product availability data.
+
+B2C Commerce isn’t the system of record for inventory data. Its job is to track inventory levels and integrate with back-end inventory systems in near real time. This means that shoppers see availability info that’s based on current stock-level information. Product availability automatically adjusts as shoppers place orders.
+
+#### Price Books
+
+You define B2C Commerce storefront product prices in price books, which contain the price details for products based on a currency. You define prices for varying quantities of a product in a price table. You can create multiple price tables for each product, but you can only activate one price table at a time. For example, in one price table, a box of soap sells for US$12.00. In another price table, a box of the same soap sells for US$11.00, and two to three boxes each sell for US$10.00.
+
+Though you define price books for your entire organization rather than for a specific storefront site, you can assign a price book to one or more storefronts in the organization.
+
+You have to assign a price book to a site before you can use it in the storefront. You can assign one or more price books to a storefront, and multiple price books can be active at a time.
+
+#### COntent Assets
+
+In your B2C Commerce storefront, your content helps you sell products and inform shoppers. B2C Commerce supports a wide variety of content assets, including HTML text, graphics, and video, serving shoppers content such as customer support pages, special sales, size charts, gardening tips, or videos of models walking in boots. You can create new text content in Business Manager and import other content from another source. You store your content assets in libraries and folders for quick access.
+
+You can use Business Manager or external systems to manage all or some of your content. We support a B2C Commerce managed or an external content delivery network (CDN), for example, for super-fast performance.
+
+In Business Manager, you can create a matrix of images associated with products. You can specify images by color, fabric, and size range, with large, medium, and small images, and color swatches for product color selection. Though you can manage images and text in B2C Commerce, you must add video through a third-party application.
+
+In B2C Commerce, content assets are organized in libraries. You can use the private library that was created when the site was created, or libraries that are shared by multiple sites.
