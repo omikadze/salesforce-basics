@@ -393,3 +393,17 @@ A quick word about organizations, sites, and storefronts. Your organization cont
 A catalog is a collection of categories, products, and images. Your company can have one or many catalogs. You can only assign one catalog—the storefront catalog—to your site.
 
 ![catalog](./photo11.png)
+
+When we talk about sites in B2C Commerce, we mean the application and associated code and configurations that represent one or more storefront URLs. Storefront is the term we use for a B2C Commerce website, but we also use the term to describe any online ecommerce experience, such as a native application on a mobile device. A storefront is the place shoppers go to buy stuff!
+
+In the storefront catalog, the category structure you create determines storefront navigation: the categories that group products, the products available in each category, and the product attributes displayed to the shopper.
+
+Product attributes are the information types you define for each product. For example, product attributes for shoes include size, color, heel height, width, and brand. When you define attributes for the Shoes category, all products in that category have those attributes.
+
+If you want to manage your products in a catalog with the same structure as an external system or system of record, you create a standard catalog, which you don’t assign to a site. A standard catalog owns the products (that means you edit products in the standard catalog) and mirrors the organization of your inventory, fulfillment, or product management systems.
+
+![catalog](./photo12.png)
+
+Catalog A is the standard catalog, while Catalog B is the storefront catalog. They both contain the same product IDs, but they have different categories. Catalog A categories are from the system of record. Catalog B categories display on the storefront.
+
+You don’t have to create your data in Business Manager. You can import data such as product details, inventory, prices, content, images, and video from another system.
