@@ -671,7 +671,7 @@ You can sort the search results with a single attribute or a weighted blend of m
 #### Promotions
 A B2C Commerce promotion is a set of rules that define how and when a shopper gets a discount, and the details of that discount. Here are the three promotion types (or classes): product promotion (1), order promotion (2), and shipping promotion (3).
 
-![GitHub Logo](/photo14.png)
+![GitHub Logo](/photo13.png)
 
 #### What's a Qualifier?
 
@@ -679,6 +679,6 @@ Qualifiers trigger a promotion and can be coupons, customer groups, or source co
 
 Shoppers can get a coupon code in an email, for example, or they can be part of a customer group based on their demographics or membership, or they can receive a discount because they navigated from an affiliate group such as Google. A source code embedded in a cookie triggers the discount.
 
-![GitHub Logo](/photo15.png)
+![GitHub Logo](/photo14.png)
 
 You can set multiple qualifiers for a promotion. For example, Brandon wants to offer 20% off Brand-X SuperSpeed running shoes. To qualify, the shopper must be a Loyalty Program member and enter a coupon code that they received in an email.
