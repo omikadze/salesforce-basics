@@ -639,3 +639,7 @@ This is the order that B2C Commerce applies discounts:
 * Rank—Which promotions take precedence (with 10 = highest and 100 = lowest).
 * Discount Type and Value—Discounts in order (for example, Fixed Price, Total Fixed Price, and Free).
 * Maximum Application—Limits the times a discount can apply in an order. (Only certain discounts have this capability.)
+
+## B2C Commerce Campaigns and Promotions (Plan and configure campaigns and promotions for your B2C Commerce storefront)
+
+### Explore Campaigns and Experience Types
