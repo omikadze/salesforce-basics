@@ -653,3 +653,32 @@ Campaigns can contain multiple experiences. When Brandon ties multiple promotion
 
 
 ![GitHub Logo](/photo13.png)
+
+#### Content Slots
+
+A content slot is a preconfigured location on the storefront where you can showcase products, categories, content assets, static HTML, or product recommendations. A content asset can be a flash graphic, product carousel, or marketing graphic. This is where he makes his products shine.
+
+For instance, you want to show exciting new content about the spring sports apparel on the homepage banner content slot and on category landing page banner content slots.
+
+#### Sorting Rules and Keyword Search Sorting Rules
+
+Sorting rules let you control the order in which products display on the storefront after a search or when viewing a category listing page.
+
+You can bring certain products to the shopper’s attention by having them appear at the top, for example. You can configure a sorting rule or a keyword search sorting rule. The sorting rule experience requires a category, while the keyword search experience does not use categories. An experience can only have one keyword search sorting rule.
+
+You can sort the search results with a single attribute or a weighted blend of multiple attributes.
+
+#### Promotions
+A B2C Commerce promotion is a set of rules that define how and when a shopper gets a discount, and the details of that discount. Here are the three promotion types (or classes): product promotion (1), order promotion (2), and shipping promotion (3).
+
+![GitHub Logo](/photo14.png)
+
+#### What's a Qualifier?
+
+Qualifiers trigger a promotion and can be coupons, customer groups, or source codes.
+
+Shoppers can get a coupon code in an email, for example, or they can be part of a customer group based on their demographics or membership, or they can receive a discount because they navigated from an affiliate group such as Google. A source code embedded in a cookie triggers the discount.
+
+![GitHub Logo](/photo15.png)
+
+You can set multiple qualifiers for a promotion. For example, Brandon wants to offer 20% off Brand-X SuperSpeed running shoes. To qualify, the shopper must be a Loyalty Program member and enter a coupon code that they received in an email.
