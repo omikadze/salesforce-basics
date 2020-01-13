@@ -643,3 +643,10 @@ This is the order that B2C Commerce applies discounts:
 ## B2C Commerce Campaigns and Promotions (Plan and configure campaigns and promotions for your B2C Commerce storefront)
 
 ### Explore Campaigns and Experience Types
+
+#### What’s a B2C Commerce Campaign?
+
+A B2C Commerce campaign contains scheduled experiences that are targeted at a specific set of shoppers. Experiences can be promotions, content slots, sorting rules, and keyword search sorting rules (you’ll learn more about each of these shortly). Shoppers must qualify for an experience. Experiences must run within the campaign’s overall schedule.
+
+#### Experience Types
+Campaigns can contain multiple experiences. When Brandon ties multiple promotion experiences to one campaign, he gets a single view of all the experiences running at any given time.
