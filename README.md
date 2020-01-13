@@ -552,3 +552,90 @@ In Business Manager, you configure discounts as promotions, and group multiple p
 
 #### Campaigns
 
+A campaign is a collection of scheduled experiences that your shoppers can have in your storefront. You can create three types of experiences within a campaign.
+
+* Promotion—Promotions are discounts. We talk more about them in a minute.
+* Slot configuration—Slots are specific places in a storefront that display content and perform some action. For example, a banner shows a child wearing a red hat and text that says, “50% off on all kids’ hats.” When the shopper clicks the banner, the search results show a list of children’s hats.
+* Sorting rule—We introduced sorting rules in the previous unit. Sorting rules let you or your shoppers reorder the search results in a certain way, by lowest price first, for example.
+
+You can schedule campaigns with specific start and end dates, or you can run them continually. Enable or disable campaigns with one setting. You can give promotions the same schedule as the campaign or an independent schedule within the campaign period. For example, you can schedule a series of promotions that kick off one after the other during your campaign.
+
+You control promotions by assigning qualifiers and rank. Qualifiers determine who gets a discount, while rank controls precedence when multiple promotions apply at the same time. We talk more about how to control promotions later.
+
+##### Promotions
+
+In B2C Commerce, you create a promotion to define the rules that govern your discount. You ask three basic questions.
+
+1. What is the promotion class?
+2. What is the discount type?
+3. What is the discount?
+
+###### Promotion Classes
+
+There are three promotion classes.
+
+* Product—discounted individual products
+* Order—discount on the entire order
+* Shipping—discounted shipping costs
+
+###### Discount Types
+
+Product promotions are the most complex, offering a matrix of discount type choices. These are the product promotion discount types in Business Manager.
+
+When you set up order promotion rules, you specify an amount the shopper must spend or the number or combination of products the shopper must buy to qualify for a discount. You can configure order promotion rules for percent off, amount off, bonus products, or choice of bonus products (list or rule) discounts.
+
+You base shipping promotion rules on the order or on individual products or product combinations within the order. You can give qualifying shoppers free or discounted shipping costs.
+
+###### Discounts
+
+Available discounts vary by discount type. Here’s a list of discounts you can give.
+
+* Percent off
+* Amount off
+* Fixed price
+* Price from a certain price book
+* Percent off product options
+* Bonus products
+* Choice of bonus products
+* Fixed price shipping
+* Free shipping
+
+##### Qualifiers
+
+You create qualifiers to control which customers get a discount. In B2C Commerce, qualifiers are coupons, customer groups, and source codes.
+
+* Coupons	A coupon entitles the holder to a discount. In B2C Commerce, you configure coupons for a single use or multiple uses. You can create a multiuse coupon that’s good “while supplies last.” You can also create system-generated coupons that create coupon codes for you.
+
+* Customer Groups	Create discounts that are available to all customers who belong to a particular group. B2C Commerce comes standard with three predefined customer groups: Everyone, Registered customers, and Unregistered customers. You can create new groups to meet your own requirements, such as a list of customers or a group based on visit data, order value, or address.
+
+* Source Codes	Use a source code to direct customers to a specialized landing page, featured product detail page, category list, or other URL. You can provide a source code to shoppers in your print catalog; shoppers manually enter the code in your storefront. Or provide the code via a redirect link on an affiliate website.
+
+##### Other Ways to Control Promotions
+
+
+You don’t want give products away by applying multiple discounts when shoppers qualify for them. With B2C Commerce, you control which discounts apply, in what order, and how many times. You can exclude certain products from discounts or offer volume discounts.
+
+###### Tiered Discounts
+You can tier discounts so that the discount amount increases as the shopper buys more products or spends more money
+
+###### Rank and Exclusivity
+If a shopper qualifies for multiple discounts, you can use the rank and exclusivity attributes to limit which discounts apply. Setting these attributes prevents stacking, or the excessive application of multiple discounts. Rank is a number you can assign—the smaller the number, the higher the rank. Discounts with a higher rank apply before lower-ranked discounts.
+
+You can set the exclusivity of discounts to NO, CLASS, or GLOBAL. Setting exclusivity to NO allows for combining discounts, CLASS disallows combining discounts in the same class, and GLOBAL prevents all combining. If the shopper qualifies for a global exclusive promotion, for example, no other promotions apply.
+
+Say there’s a 10% product promotion for everyone, and a special 20% product promotion for registered customers. Registered customers should only get the 20% discount. Right? Maybe so. But you might want multiple promotions applied to an order. A shopper gets a 10% discount on a winter coat, free shipping because the order’s over a set amount, and a free scarf to go with the coat in the same order.
+
+You can exclude a product from specific promotions or exclude it from all promotions (to prevent discounts on low-margin products, for example).
+
+You can define both the qualifying products—which products a shopper must buy and in what quantity to be eligible for a discount—and the discounted products—which products are eligible for the discount.
+
+###### What Happens When?
+If a shopper qualifies for multiple promotions in a cart, B2C Commerce applies them in a well-defined order to prevent double dipping or unpredictable results. For example, product promotions are applied before order promotions, because order promotions depend on the resulting total after the product discounts.
+
+This is the order that B2C Commerce applies discounts:
+
+* Class—The promotion types in the sequence of product, order, and shipping.
+* Exclusivity Type—Whether promotions are mutually exclusive, in general or relative to a promotion's class.
+* Rank—Which promotions take precedence (with 10 = highest and 100 = lowest).
+* Discount Type and Value—Discounts in order (for example, Fixed Price, Total Fixed Price, and Free).
+* Maximum Application—Limits the times a discount can apply in an order. (Only certain discounts have this capability.)
