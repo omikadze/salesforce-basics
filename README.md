@@ -538,3 +538,17 @@ If you can get the attention of external search engines like Google, you can dri
 After the search results display, shoppers sometimes need more guidance. For example, you can help them sort or refine their results. You can also sort results to highlight top sellers or showcase your latest products. You can also let shoppers customize search results by sales, product availability, or personalized details.
 
 You can use Business Manager to configure B2C Commerce sorting rules to change the order of search results, or to let your shoppers change the order themselves. Shoppers direct their own sorting through storefront sorting options. The options appear in a dropdown list on a search results page. Shoppers click an option such as Low to High to sort by price.
+
+### B2C Commerce Campaigns and Promotions
+
+Everyone loves getting a discount. With Business Manager, you can create serious discounts that drive sales and make shoppers happy.
+
+In Business Manager, you configure discounts as promotions, and group multiple promotions into campaigns. For example, create a campaign to push new spring apparel, such as flowered dresses, lightweight pants, and raincoats. Here are some of the promotions you offer.
+
+* Free shipping to shoppers who spend more than a certain amount on selected apparel.
+* Buy one, get one free for all flowered dresses via an emailed coupon.
+* Buy one pair of khaki pants and get 50% off on the next pair.
+* Buy three raincoats and get 20% off the entire order.
+
+#### Campaigns
+
