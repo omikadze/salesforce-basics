@@ -650,3 +650,6 @@ A B2C Commerce campaign contains scheduled experiences that are targeted at a sp
 
 #### Experience Types
 Campaigns can contain multiple experiences. When Brandon ties multiple promotion experiences to one campaign, he gets a single view of all the experiences running at any given time.
+
+
+![GitHub Logo](/photo13.png)
