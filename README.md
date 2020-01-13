@@ -451,7 +451,7 @@ Though you define price books for your entire organization rather than for a spe
 
 You have to assign a price book to a site before you can use it in the storefront. You can assign one or more price books to a storefront, and multiple price books can be active at a time.
 
-#### COntent Assets
+#### Content Assets
 
 In your B2C Commerce storefront, your content helps you sell products and inform shoppers. B2C Commerce supports a wide variety of content assets, including HTML text, graphics, and video, serving shoppers content such as customer support pages, special sales, size charts, gardening tips, or videos of models walking in boots. You can create new text content in Business Manager and import other content from another source. You store your content assets in libraries and folders for quick access.
 
@@ -460,3 +460,81 @@ You can use Business Manager or external systems to manage all or some of your c
 In Business Manager, you can create a matrix of images associated with products. You can specify images by color, fabric, and size range, with large, medium, and small images, and color swatches for product color selection. Though you can manage images and text in B2C Commerce, you must add video through a third-party application.
 
 In B2C Commerce, content assets are organized in libraries. You can use the private library that was created when the site was created, or libraries that are shared by multiple sites.
+
+### B2C Commerce Search
+
+Online shoppers want to find stuff fast! Salesforce B2C Commerce comes with lots of search capabilities to help your shoppers find the things they’re looking for. In this unit, we cover search redirects, the search index, searchable attributes, and search configuration settings in Business Manager. We also look at the B2C Commerce search engine optimization (SEO) capabilities, for when the search comes from a search engine like Google.
+
+#### Search Features
+
+##### Type-Ahead Search
+
+B2C Commerce starts processing a storefront search as soon as shoppers type a few characters into the search field. As they type, B2C Commerce is already checking for things like spelling and word completion. It also gives suggestions, such as a category.
+
+Keyword search field, search suggestions, and sorting search results
+
+
+##### Search Redirects
+
+After the shopper enters a search term, B2C Commerce can process a search redirect. In a search redirect, a predefined term, like wedding dress, sends the shopper to a specific page or URL instead of to a search results page. The Wedding Dress page (or site) might have a unique look and feel, special content, access to a bridal registry, wedding guide information, and pricing. By going directly to the site, the shopper’s enhanced buying experience increases the likelihood that they buy something.
+
+#### Search Index
+
+B2C Commerce passes the information that the shopper types to the search index. The search index is a collection of data about the site’s products and content that shoppers can search for. And this is key! Data isn’t searchable by default. You have to configure product and content data as searchable in Business Manager.
+
+You configure product details and attributes—data such as brand, ID, name, and description—as searchable. For example, when you include product names and descriptions in your search index, and a shopper enters beaded wedding dress in the search field, the search results page displays any product names and descriptions that include the phrase beaded wedding dress, or any combination of the three words, depending on your configuration.
+
+Don’t go overboard when you mark data as searchable. The more data you configure as searchable, the bigger the index, and the slower the search speed.
+
+The B2C Commerce search index combines several indexes that handle spelling, content, synonyms, suggestions, and product availability. In Business Manager, you can define all kinds of information.
+
+* Synonyms—Terms that mean the same thing.
+* Hypernyms—Term for a group of products. For example, the term top is a hypernym that contains the hyponyms tunic, shirt, and blouse. When a shopper searches for top, B2C Commerce returns products that contain top, tunic, shirt, and blouse.
+* Hyponyms—Term for an item in the group of products that a hypernym describes. For example, blouse is a hyponym of the hypernym top. When the shopper searches for blouse, B2C Commerce only returns products that contain blouse.
+
+Let’s look at an example of synonyms. Suppose you configure a synonym list for the terms bag, purse, pocketbook, and tote. When shoppers search for bag, B2C Commerce looks for bag OR purse OR pocketbook OR tote, and returns:
+
+* bag and bags
+* purse and purses
+* pocketbook and pocketbooks
+* tote and totes
+* White purse
+
+The search index derives search terms from these types of product data.
+
+* Stop words—Define words that the search engine ignores, such as an or the.
+* Compound words—Define words that the search engine splits into separate terms. For example, if you configure foot-* as a compound word, a search for footstool returns results for foot and stool.
+* Common phrases—Define word combinations that the search engine finds as a unit, such as pencil case.
+* Word stems—Define the common root of one or more words. For example, boot is the stem of boots and booties.
+* Special characters—Configure the search engine to remove these special characters: ! ( ) : [ ] { } + ~ ^ ? ' .
+* Product numbers—Configure the search engine to split product IDs into their parts. For example, a product ID shirt-1234 can be split into shirt and 1234.
+* Short terms—Specify short words (fewer than three characters) that the search engine evaluates. Search suggestions and the Did You Mean features ignore short terms unless you specify them.
+
+You want site data that's as fresh as possible, but rebuilding the index after every update isn't always practical. Indexing everything can take hours, depending on the amount of data and the complexity of the search configuration.
+
+There are other ways, however, to keep the search index up to date. Turn on Incremental Indexing to update the index whenever someone changes search configurations or product details in Business Manager.
+
+#### Einstein Search Dictionaries
+
+Einstein Search Dictionaries uses artificial intelligence to make your site search even smarter, by collecting data from all site searches and settings to find search terms that aren’t in your dictionaries. Then it detects relationships between search terms and recommends which synonym lists to assign terms to.
+
+#### Search Preference Settings
+
+Business Manager search preferences give you tons of control over storefront search. Use preferences to hide products that aren’t available or move those with limited availability to the bottom of search results.
+
+#### SEO
+If you can get the attention of external search engines like Google, you can drive sales. Optimize your site for search engines with a few basic settings in Business Manager.
+
+* Get more search engine attention—Streamline URLs and eliminate irrelevant keywords, multiple directory layers, and parameters. Dynamically create HTML page metatags and heading tags, embedded information to get hits.
+* Focus attention on the sites to be searched—Configure robot.txt files, which web crawlers and other web robots check to see if site indexing is allowed.
+* Don’t miss a sale—Configure hostname aliases for alternate URL names.
+* Retain loyal shoppers—Send shoppers from an old URL to a new one via URL redirects.
+* Populate search engine indexes—Configure sitemaps with website contents for crawler consumption and indexing. Sitemaps are XML files that provide search engines with information like a list of available URLs, when a page was last updated, frequency of updates, and page relevance. Search engines use this information to construct links to the site and control the ranking of links within search results.
+* Avoid dead-ends—Configure alternative paths to avoid 404s, or file not found errors.
+* Preserve search rankings for pages that seem like duplicates—Configure within your page headers which of multiple similar URLs is the preferred or canonical one.
+
+#### After the Search
+
+After the search results display, shoppers sometimes need more guidance. For example, you can help them sort or refine their results. You can also sort results to highlight top sellers or showcase your latest products. You can also let shoppers customize search results by sales, product availability, or personalized details.
+
+You can use Business Manager to configure B2C Commerce sorting rules to change the order of search results, or to let your shoppers change the order themselves. Shoppers direct their own sorting through storefront sorting options. The options appear in a dropdown list on a search results page. Shoppers click an option such as Low to High to sort by price.
