@@ -682,3 +682,8 @@ Shoppers can get a coupon code in an email, for example, or they can be part of 
 ![GitHub Logo](/photo14.png)
 
 You can set multiple qualifiers for a promotion. For example, Brandon wants to offer 20% off Brand-X SuperSpeed running shoes. To qualify, the shopper must be a Loyalty Program member and enter a coupon code that they received in an email.
+
+#### Build the Playbook
+Yours campaign is more than a configuration. It’s a complete program that you design and implement. You must consider graphics, timelines, products, categories, marketing sources, and storefront page locations. And where exactly do you place your campaign assets?
+
+You create a playbook. Here’s an example of the campaign so far.
