@@ -687,3 +687,16 @@ You can set multiple qualifiers for a promotion. For example, Brandon wants to o
 Yours campaign is more than a configuration. It’s a complete program that you design and implement. You must consider graphics, timelines, products, categories, marketing sources, and storefront page locations. And where exactly do you place your campaign assets?
 
 You create a playbook. Here’s an example of the campaign so far.
+
+![GitHub Logo](/photo15.png)
+![GitHub Logo](/photo16.png)
+![GitHub Logo](/photo17.png)
+
+#### What's the Process?
+YOu start by creating the campaign. But then you have to stop and create the qualifiers, and then stop again to create the promotions.
+
+Because you’re already planned a detailed approach, here’s a more efficient way.
+
+* Create the qualifiers.
+* Create the experiences.
+* Create the campaign.
