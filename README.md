@@ -725,3 +725,70 @@ Let’s follow along with Brandon as he learns how to configure his qualifiers.
 Brandon can create coupons in Salesforce B2C Commerce or import them from an external system. They can also exist outside of a campaign or a promotion. When you configure a coupon as a promotion qualifier, when the promotion expires, the coupon expires, too.
 
 You can assign a coupon to one or more promotions and associate an individual promotion with multiple coupons. When you associate a coupon with a campaign, all promotions in that campaign automatically inherit the coupon. You can also disinherit a coupon within a promotion.
+
+##### Coupon Types
+
+Here are the types of coupons you can create in Business Manager.
+
+![GitHub Logo](/photo18.png)
+
+Brandon uses the redemption limit to limit how many times each shopper can use the coupon in a transaction.
+
+##### Create Coupons
+
+In this module, we assume that you are a B2C Commerce merchandiser with the proper permissions to perform these tasks. If you’re not a B2C Commerce merchandiser, that’s OK. Read along to learn how your merchandiser would take these steps in Business Manager. 
+
+Brandon starts with a merchant-defined single code coupon. Here’s what he does.
+
+![GitHub Logo](/photo19.png)
+
+Brandon can assign the coupon to a campaign in the Coupon module. But remember, he wants to create all the qualifiers and promotions first, and then add them to the campaign.
+
+#### Customer Groups
+
+Brandon uses customer groups to show content slots, promotions, and sorting rules to specific customers, providing them with an awesome experience.
+
+##### Customer Group Types
+
+Here are the types of customer groups he can configure.
+
+* System: Pre-existing groups already available in Business Manager. They are Everyone, Registered, and Unregistered. You cannot change them.
+* Static: Add shoppers to the group manually one by one, or upload a list of shoppers from your customer relationship management (CRM) system.
+* Dynamic: Create a membership rule to place customers in a particular group. The rules are based on customer data attributes, for example, a customer’s birthday in 30 days.
+
+He wants to configure these customer groups.
+
+* Static: Logged-in Loyalty Program member
+* Dynamic: Lapsed shoppers.
+
+Lapsed shoppers have created a profile but haven't shopped for a while.
+
+##### Create Customer Groups
+
+Here’s how he creates the Loyalty Program customer group.
+
+![GitHub Logo](/photo20.png)
+
+Here’s how he creates the lapsed-shoppers customer group.
+
+![GitHub Logo](/photo21.png)
+
+#### Source Codes
+
+When shoppers type coupon codes in a storefront to qualify for a promotion, the source codes can trigger different actions behind the scenes. They can:
+
+* Direct customers to specialized landing pages, featured product detail pages, category lists, and URLs.
+* Redirect them to other sites.
+* Activate price books.
+* Enable promotions.
+
+What makes source codes special is that they can do different things. A source code can activate a price book, or you can use one as a qualifier in a campaign to activate promotions, sorting rules, or content slots.
+
+Brandon wants to use a source code to activate a promotion when a shopper clicks a newsletter email. From a link in the email, the shopper navigates to the Cloud Kicks storefront, which stores the source code in a cookie on the shopper’s machine. Lucky them—they get free shipping on orders over $100.
+
+Brandon learns that he can create a source code group to contain one or more literal codes or patterns that match multiple codes. He uses SPORT[1..10] as the code, which means that shoppers can enter SPORT1 but not sport1.
+
+He can map multiple codes to the same set of rules (price books, promotions, and redirects). He does this by defining them as part of a source code group, while still tracking results on a per source code basis. He can assign one or more source codes to a campaign, so that all the promotions within that campaign use those source codes.
+
+Here’s how he creates a source code.
+
