@@ -792,3 +792,4 @@ He can map multiple codes to the same set of rules (price books, promotions, and
 
 Here’s how he creates a source code.
 
+![GitHub Logo](/photo22.png)
