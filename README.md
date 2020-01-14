@@ -700,3 +700,28 @@ Because you’re already planned a detailed approach, here’s a more efficient 
 * Create the qualifiers.
 * Create the experiences.
 * Create the campaign.
+
+
+### Create Qualifiers
+
+Brandon Wilson, the Cloud Kicks merchandiser, wants to offer exciting promotions in his Spring campaign. He wants to target Loyalty Program members and shoppers who haven’t purchased for a while. It’s great that he’s identified his audience. Now he must figure out how they can qualify for discounts.
+
+That’s where qualifiers come in. As a reminder, these are the qualifier types.
+
+* Coupons: Multiple or single-use codes that shoppers can use to get a discount.
+* Customer groups: A list of specific customers or customers who meet criteria such as geographic location.
+* Source codes: A code on a browser cookie that results from the shopper clicking a link on an affiliate website. They automatically navigate to the storefront.
+Brandon wants to configure multiple qualifiers for some of his promotion experiences. He does that using qualifier settings for each promotion experience within a campaign. He configures campaigns in a later unit.
+
+Let’s follow along with Brandon as he learns how to configure his qualifiers.
+
+* Merchant-defined single code coupon
+* Static customer group
+* Dynamic customer group
+* Source code
+
+#### Coupons
+
+Brandon can create coupons in Salesforce B2C Commerce or import them from an external system. They can also exist outside of a campaign or a promotion. When you configure a coupon as a promotion qualifier, when the promotion expires, the coupon expires, too.
+
+You can assign a coupon to one or more promotions and associate an individual promotion with multiple coupons. When you associate a coupon with a campaign, all promotions in that campaign automatically inherit the coupon. You can also disinherit a coupon within a promotion.
