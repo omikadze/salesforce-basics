@@ -793,3 +793,52 @@ He can map multiple codes to the same set of rules (price books, promotions, and
 Here’s how he creates a source code.
 
 ![GitHub Logo](/photo22.png)
+
+### Discount Types and Promotion Controls
+
+Brandon Wilson, the Cloud Kicks merchandiser, has his qualifiers and now wants to create promotions. But before he begins, he wants to learn more about what Salesforce B2C Commerce promotions are and how they work.
+
+B2C Commerce promotions specify discounts or offers. They run within a campaign or an A/B test. A/B test is a B2C Commerce feature that lets you test multiple experiences against each other to see how shoppers respond.
+
+Promotion configurations contain rules that define the promotion type, conditions, and discounts. You can extend a promotion with custom attributes to meet specific business requirements. Promotions can be time-sensitive and targeted at specific customer groups. They can be perpetual, such as offering free shipping to build shopper loyalty. You can assign the same promotion to multiple campaigns.
+
+For example, Brandon wants to offer 20% off Brand-X SuperSpeed running shoes to Loyalty Program members. Shoppers qualify for this discount by entering a coupon code after they log in to the storefront.
+
+For each promotion Brandon wants to create, he asks himself:
+
+* Who gets the deal? (Loyalty Program members)
+* What’s the discount? (20% off)
+* How do shoppers get the deal? (Buy Brand-X SuperSpeed running shoes)
+* Are there exclusions? (No)
+
+He needs to answer these questions for all his promotions. He already answered the first question by creating qualifiers in the previous unit. Let’s move on to explore discount types and the many ways he can control how shoppers get the deals.
+
+
+#### Discount Types
+
+Each of the three promotion types is further defined by discount type and available discounts.
+
+Here’s a sampling of them.
+
+![GitHub Logo](/photo23.png)
+
+Here are the promotions he wants to create.
+
+![GitHub Logo](/photo24.png)
+
+Before Brandon creates the promotions, he wants to learn more about how to control them.
+
+#### Control Those Promotions
+
+Brandon wants to offer great discounts, but within reason. He doesn’t want a shopper to qualify for multiple discounts and get products for free. Even double-dipping is not OK. That’s when a shopper gets a double discount.
+
+Here are the ways he can control who gets a discount.
+
+![GitHub Logo](/photo25.png)
+
+##### Tiered Discounts 
+
+With tiered discounts, the discount amount increases as the shopper buys more products or spends more money. For example, a shopper gets 10% off a $50 purchase of Brand-X apparel, 15% on $100, and 20% on $150 or more. They must buy a certain brand and spend a certain amount to qualify. The more they spend, the bigger the discount.
+
+##### Compatibility Rules
+
