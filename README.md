@@ -900,3 +900,53 @@ Promotion class is only one of the many promotion calculations. When multiple pr
 
 Promotion processing is complex, but it happens fast. As shoppers add items to the cart, the numbers change in a flash.
 
+### Create Promotions
+
+Brandon Wilson is ready to create promotions for his Spring sports campaign. With so many options available in Salesforce B2C Commerce, right now he just wants to focus on promotions that meet his immediate needs. Later, he can explore other possibilities, building on the experience he gains here.
+
+Brandon has a lot of confidence in his plan. Here’s what he has in mind.
+
+![GitHub Logo](/photo26.png)
+
+#### Product Promotions
+
+Here are the product promotions he wants to create.
+
+* 20% off Brand-X SuperSpeed running shoes
+* Free baseball with a pair of baseball shoes
+* Buy one, get one half off Brand-Y Xcel athletic shorts and t-shirts
+
+He assigns the CLASS exclusivity setting to all of them, because he doesn’t want shoppers to get more than one discount. The CLASS exclusivity means that a shopper can’t use a promotion with another promotion in the same class.
+
+Brandon selects qualifying and discounted products carefully. For example, he doesn’t select master products because they are not orderable. They don’t have a stock keeping unit (SKU). He can select from these product types.
+
+* Standard product
+* Variation product
+* Product set
+* Product bundle
+
+##### Create Promotion: 20% Off Brand-X SuperSpeed Running Shoes
+
+![GitHub Logo](/photo27.png)
+![GitHub Logo](/photo28.png)
+
+##### Create Promotion: Free Baseball with a Pair of Baseball Shoes
+
+![GitHub Logo](/photo29.png)
+
+##### Create Promotion: Buy One Get One Half Off Brand-Y Xcel Athletic Shorts and T-Shirts
+
+![GitHub Logo](/photo30.png)
+![GitHub Logo](/photo31.png)
+
+#### Order Promotions
+
+Brandon wants to offer an order promotion where orders over $50 get 15% off. He also wants to alert the shopper when their order value approaches this discount by $10. He first works with a developer to add code for the alert on approaching functionality. His developer refers to documentation in the Infocenter. Once the developer has completed the code, Brandon takes these steps.
+
+![GitHub Logo](/photo32.png)
+
+#### Shipping Promotions
+
+Brandon wants to create a promotion with free shipping on orders over $100. He also wants to alert the shopper when their order value approaches this discount by $10. He first works with a developer to add code for the alert on approaching functionality. His developer refers to documentation in the Infocenter. Once the developer has completed the code, Brandon takes these steps.
+
+![GitHub Logo](/photo33.png)
