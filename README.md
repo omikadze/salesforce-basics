@@ -1,7 +1,6 @@
 # Salesforce Basics
 
-http://github.com - automatic!
-[GitHub](http://github.com)
+
 
 ## Salesforce User Basics
 
