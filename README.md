@@ -2,6 +2,7 @@
 
 **Table of context:**
 - [Salesforce User Basics](##salesforce-user-basics)
+  -  [Salesforce User Basics](##welcome-to-salesforce)
   
 
 ## Salesforce User Basics
