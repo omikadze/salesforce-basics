@@ -1,6 +1,8 @@
 # Salesforce Basics
 
-
+**Table of context:**
+- [Salesforce User Basics](#Salesforce User Basics)
+  
 
 ## Salesforce User Basics
 
