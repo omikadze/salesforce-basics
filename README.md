@@ -2,7 +2,8 @@
 
 **Table of context:**
 - [Salesforce User Basics](#salesforce-user-basics)
-  -  [Salesforce User Basics](#welcome-to-salesforce)
+  - [Salesforce User Basics](#welcome-to-salesforce)
+  - [Who sees what](#Who-sees-what)
   
 
 ## Salesforce User Basics
