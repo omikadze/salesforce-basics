@@ -950,3 +950,23 @@ Brandon wants to offer an order promotion where orders over $50 get 15% off. He 
 Brandon wants to create a promotion with free shipping on orders over $100. He also wants to alert the shopper when their order value approaches this discount by $10. He first works with a developer to add code for the alert on approaching functionality. His developer refers to documentation in the Infocenter. Once the developer has completed the code, Brandon takes these steps.
 
 ![GitHub Logo](/photo33.png)
+
+### Create Campaigns
+
+Brandon Wilson is ready to build his Spring campaign with the qualifiers and promotions he just created.
+
+randon learns that a campaign start date and time and end date and time are optional. If there’s no start date, Salesforce B2C Commerce enables the campaign immediately. If there’s no end date, the campaign runs indefinitely. He wants to run his Spring campaign from January 15 to April 15.
+
+And now he’s ready to create it!
+
+##### Create a Campaign with Qualifiers and Promotions
+
+Brandon is thrilled with his company’s fabulous new products and wants lots of people to wear them this spring.
+
+Here’s how he creates his campaign.
+
+![GitHub Logo](/photo34.png)
+![GitHub Logo](/photo35.png)
+![GitHub Logo](/photo36.png)
+![GitHub Logo](/photo37.png)
+
