@@ -842,3 +842,61 @@ With tiered discounts, the discount amount increases as the shopper buys more pr
 
 ##### Compatibility Rules
 
+Compatibility rules let you configure which discounts apply and in what order, so that all promotions for which a shopper is eligible are not automatically applied. Exclusivity and rank settings let you do this.
+
+With the exclusivity setting, Brandon can define if promotion types are mutually exclusive or relative to another promotion type. Here are the settings.
+
+* NO	Can be combined with any promotion (default).
+* CLASS	Cannot be combined with a promotion of the same class.
+* GLOBAL	Cannot be combined with any promotion.
+
+For example, if all shoppers get 10% off and registered shoppers get 20% off, the registered shoppers should only get a 20% discount. Brandon might, however, want shoppers to get a 10% product discount, free shipping based on the order value, and a free bonus product in the same order. In this case, exclusivity should be set to Cannot be combined with a promotion of the same class.
+
+The rank setting lets Brandon decide which promotions come first (10 is highest and 100 is lowest, for example). Promotions are applied in the order of their rank (highest rank first).
+
+##### Maximum Application
+
+You can control how many times a shopper can use a specific promotion in a single order. For example, Brandon wants to offer a bonus baseball with a purchase of a pair of Brand-X baseball shoes. He can limit the number of baseballs that a shopper receives in an order, regardless of how many pairs of shoes they buy in that order.
+
+##### Globally Excluded Products
+
+You can exclude certain products from a promotion within each promotion individually. You can also exclude specific products from all promotions globally. Brandon can prevent discounts on low margin products, for example, without having to configure a setting for each promotion.
+
+##### Qualifying and Discounted Products
+
+You can configure a specific set of products that qualify for a promotion and the same or a different set of products that qualify for a discount. For example, Brandon is considering this discount.
+
+Buy a buy Brand-Y T-shirt and get half off the matching shorts.
+
+A shopper qualifies for the promotion by buying the T-shirt, while the shorts are discounted.
+
+Brandon wants to understand how discounts are prioritized when a shopper qualifies for more than one of them at checkout. If only one discount can apply, how does B2C Commerce figure out which one it is?
+
+B2C Commerce uses priority rules to determine this. You can customize some of the rules, such as exclusivity and rank, but most of them are fixed. For example, B2C Commerce processes product, order, and shipping promotions in an exact order based on cart calculations. Here are the steps B2C Commerce takes to process discounts by class.
+
+* Calculate product promotions.
+* Calculate order promotions on the basis of the merchandise total.
+* Prorate order-level discounts across all products within the order.
+* Calculate shipping promotions.
+
+Promotion class is only one of the many promotion calculations. When multiple promotions apply, B2C Commerce processes promotions in this order.
+
+1. External API-generated promotions
+2. Class (product, order, shipping)
+3. Exclusivity (customizable )
+4. Rank (customizable)
+5. Discount type and value (Promotions that provide the best value to the shoppers are evaluated first.)
+  a. Fixed price
+  b. Total fixed price
+  c. Free
+  d. Price book price
+  e. Amount-off
+  f. Percent-off
+  g. Bonus-product
+  h. Choice of bonus products
+  i. Free product-shipping
+  j. Fixed price product-shipping
+6. Maximum application
+
+Promotion processing is complex, but it happens fast. As shoppers add items to the cart, the numbers change in a flash.
+
