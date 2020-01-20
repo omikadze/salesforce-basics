@@ -6,6 +6,9 @@
   - [Who sees what](#Who-sees-what)
   - [Collaboration using Salesforce](#collaboration-using-salesforce) 
   - [What Is CRM?](#What-is-crm)
+  - [How Salesforce Organizes Your Data](##how-salesforce-organizes-your-data)
+  - [Salesforce Standard Objects](#salesforce-standard-objects)
+- [Get Started with Commerce Cloud](#get-started-with-сommerce-сloud)
 ## Salesforce User Basics
 
 ### Welcome to Salesforce
