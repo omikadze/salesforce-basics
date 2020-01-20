@@ -18,7 +18,10 @@
   - [Endless Aisle for B2C Commerce](#endless-aisle-for-b2c-commerce)
 - [Why Does Commerce Cloud Need Different Products for B2B and B2C Commerce?](#why-does-commerce-cloud-need-different-products-for-b2b-and-b2c-commerce)
 - [The Key Categories of B2C Commerce](#the-key-categories-of-b2c-commerce)
-
+  - [B2C Commerce Storefront](#b2c-commerce-storefront)
+  - [Merchandising and Marketing](#merchandising-and-marketing)
+  - [Multi Site Management and Localization](#multi-site-management-and-localization)
+  - [B2C Commerce APIs](#b2c-commerce-apis)
 ## Salesforce User Basics
 
 ### Welcome to Salesforce
