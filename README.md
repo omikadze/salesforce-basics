@@ -31,7 +31,8 @@
   - [Learn About Commerce Cloud Order Management](#learn-about-commerce-cloud-order-management)
     - [Capabilities of Commerce Cloud Order Management for B2C Commerce](#capabilities-of-commerce-cloud-order-management-for-b2c-commerce)
   - [Learn About B2B Commerce](#learn-about-b2b-commerce)
-  
+- [Salesforce B2C Commerce (Explore how B2C Commerce transforms the online shopping experience)](#salesforce-b2c-commerce-explore-how-b2c-commerce-transforms-the-online-shopping-experience)
+
 ## Salesforce User Basics
 
 ### Welcome to Salesforce
