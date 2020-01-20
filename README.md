@@ -28,7 +28,9 @@
   - [Einstein Search Recommendations](#einstein-search-recommendations)
   - [Einstein Commerce Insights](#einstein-commerce-insights)
   - [Einstein Search Dictionaries](#einstein-search-dictionaries)
-  
+- [Learn About Commerce Cloud Order Management](#learn-about-commerce-cloud-order-management)
+  - [Capabilities of Commerce Cloud Order Management for B2C Commerce](#capabilities-of-commerce-cloud-order-management-for-b2c-commerce)
+- [Learn About B2B Commerce](#learn-about-b2b-commerce)
   
 ## Salesforce User Basics
 
