@@ -5,7 +5,7 @@
   - [Salesforce User Basics](#welcome-to-salesforce)
   - [Who sees what](#Who-sees-what)
   - [Collaboration using Salesforce](#collaboration-using-salesforce) 
-
+  - [What Is CRM?](#What-is-crm?)
 ## Salesforce User Basics
 
 ### Welcome to Salesforce
