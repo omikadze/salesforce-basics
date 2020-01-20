@@ -626,7 +626,7 @@ You can schedule campaigns with specific start and end dates, or you can run the
 
 You control promotions by assigning qualifiers and rank. Qualifiers determine who gets a discount, while rank controls precedence when multiple promotions apply at the same time. We talk more about how to control promotions later.
 
-##### Promotions
+#### Promotions
 
 In B2C Commerce, you create a promotion to define the rules that govern your discount. You ask three basic questions.
 
@@ -634,7 +634,7 @@ In B2C Commerce, you create a promotion to define the rules that govern your dis
 2. What is the discount type?
 3. What is the discount?
 
-###### Promotion Classes
+##### Promotion Classes
 
 There are three promotion classes.
 
@@ -642,7 +642,7 @@ There are three promotion classes.
 * Order—discount on the entire order
 * Shipping—discounted shipping costs
 
-###### Discount Types
+##### Discount Types
 
 Product promotions are the most complex, offering a matrix of discount type choices. These are the product promotion discount types in Business Manager.
 
@@ -650,7 +650,7 @@ When you set up order promotion rules, you specify an amount the shopper must sp
 
 You base shipping promotion rules on the order or on individual products or product combinations within the order. You can give qualifying shoppers free or discounted shipping costs.
 
-###### Discounts
+##### Discounts
 
 Available discounts vary by discount type. Here’s a list of discounts you can give.
 
