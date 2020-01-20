@@ -22,6 +22,14 @@
   - [Merchandising and Marketing](#merchandising-and-marketing)
   - [Multi Site Management and Localization](#multi-site-management-and-localization)
   - [B2C Commerce APIs](#b2c-commerce-apis)
+- [Einstein for Commerce](#einstein-for-commerce)
+  - [Einstein Product Recommendations](#einstein-product-recommendations)
+  - [Einstein Predictive Sort](#einstein-predictive-sort)
+  - [Einstein Search Recommendations](#einstein-search-recommendations)
+  - [Einstein Commerce Insights](#einstein-commerce-insights)
+  - [Einstein Search Dictionaries](#einstein-search-dictionaries)
+  
+  
 ## Salesforce User Basics
 
 ### Welcome to Salesforce
