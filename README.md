@@ -32,7 +32,18 @@
     - [Capabilities of Commerce Cloud Order Management for B2C Commerce](#capabilities-of-commerce-cloud-order-management-for-b2c-commerce)
   - [Learn About B2B Commerce](#learn-about-b2b-commerce)
 - [Salesforce B2C Commerce (Explore how B2C Commerce transforms the online shopping experience)](#salesforce-b2c-commerce-explore-how-b2c-commerce-transforms-the-online-shopping-experience)
-
+  - [B2C Commerce Shopping Experience](#b2c-commerce-shopping-experience)
+    - [The Shopper’s View](#the-shoppers-view)
+  - [B2C Commerce Features](#b2c-commerce-features)
+    - [How Shoppers Find Your Stuff and Navigate Your Storefront](#how-shoppers-find-your-stuff-and-navigate-your-storefront)
+    - [How You Showcase Your Products](#how-you-showcase-your-products)
+    - [How Shoppers Compare Your Products](#how-shoppers-compare-your-products)
+    - [How You Give Shoppers a Discount](#how-you-give-shoppers-a-discount)
+    - [How You Reward Logged-In Users](#how-you-reward-logged-in-users)
+    - [How Your Shoppers Check Out](#how-your-shoppers-check-out)
+    - [Third Party Integrations](#third-party-integrations)
+    
+    
 ## Salesforce User Basics
 
 ### Welcome to Salesforce
