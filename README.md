@@ -10,7 +10,7 @@
   - [Salesforce Standard Objects](#salesforce-standard-objects)
 - [Get Started with Commerce Cloud](#get-started-with-commerce-cloud)
   - [What Is Commerce Cloud?](#what-is-commerce-cloud)
-  - [What Are the Commerce Cloud Products and Capabilities?](#what-are-the-commerce-cloud-product-and-capabilities)
+  - [What Are the Commerce Cloud Products and Capabilities?](#what-are-the-commerce-cloud-products-and-capabilities)
     - [B2B Commerce](#b2b-commerce)
     - [B2C Commerce](#b2c-commerce)
       - [Einstein for B2C Commerce](#einstein-for-b2c-commerce)
