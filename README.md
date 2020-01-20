@@ -8,7 +8,9 @@
   - [What Is CRM?](#What-is-crm)
   - [How Salesforce Organizes Your Data](##how-salesforce-organizes-your-data)
   - [Salesforce Standard Objects](#salesforce-standard-objects)
-- [Get Started with Commerce Cloud](#get-started-with-сommerce-сloud)
+- [Get Started with Commerce Cloud](#get-started-with-commerce-cloud)
+  - [What Is Commerce Cloud?](#what-is-commerce-cloud)
+  
 ## Salesforce User Basics
 
 ### Welcome to Salesforce
