@@ -42,7 +42,8 @@
     - [How You Reward Logged-In Users](#how-you-reward-logged-in-users)
     - [How Your Shoppers Check Out](#how-your-shoppers-check-out)
     - [Third Party Integrations](#third-party-integrations)
-    
+- Salesforce B2C Commerce for Merchandisers(Configure product listings, make them easy to find, and give shoppers discounts they love.)
+  
     
 ## Salesforce User Basics
 
