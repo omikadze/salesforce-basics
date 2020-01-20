@@ -42,8 +42,26 @@
     - [How You Reward Logged-In Users](#how-you-reward-logged-in-users)
     - [How Your Shoppers Check Out](#how-your-shoppers-check-out)
     - [Third Party Integrations](#third-party-integrations)
-- Salesforce B2C Commerce for Merchandisers(Configure product listings, make them easy to find, and give shoppers discounts they love.)
-  
+- Salesforce B2C Commerce for Merchandisers(Configure product listings, make them easy to find, and give shoppers discounts they love.)[#salesforce-b2c-commerce-for-merchandisers--configure-product-listings-make-them-easy-to-find-and-give-shoppers-discounts-they-love-]
+  - [B2C Commerce Product Data](#b2c-commerce-product-data)
+    - [Catalogs](#catalogs)
+    - [Categories](#categories)
+    - [Products](#products)
+    - [Inventory](#inventory)
+    - [Price Books](#price-books)
+    - [Content Assets](#content-assets)
+  - [B2C Commerce Search](#b2c-commerce-search)
+    - [Search Features](#search-features)
+      - [Type-Ahead Search](#type-ahead-search)
+      - [Search Redirects](##search-redirects)
+    - [Search Index](#search-index)
+    - [Einstein Search Dictionaries](#einstein-search-dictionaries-1)
+    - [Search Preference Settings](##search-preference-settings)
+    - [SEO](#seo)
+    - [After the Search](#after-the-search)
+  - [B2C Commerce Campaigns and Promotions](#b2c-commerce-campaigns-and-promotions)
+    - [Campaigns](#campaigns)
+    - [Promotions](#promotions)
     
 ## Salesforce User Basics
 
