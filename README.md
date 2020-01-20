@@ -14,6 +14,11 @@
   - [B2B Commerce](#b2b-commerce)
   - [B2C Commerce](#b2c-commerce)
   - [Einstein for B2C Commerce](#einstein-for-b2c-commerce)
+  - [Order Management for B2C Commerce](#order-management-for-b2c-commerce)
+  - [Endless Aisle for B2C Commerce](#endless-aisle-for-b2c-commerce)
+- [Why Does Commerce Cloud Need Different Products for B2B and B2C Commerce?](#why-does-commerce-cloud-need-different-products-for-b2b-and-b2c-commerce)
+- [The Key Categories of B2C Commerce](#the-key-categories-of-b2c-commerce)
+
 ## Salesforce User Basics
 
 ### Welcome to Salesforce
