@@ -62,6 +62,37 @@
   - [B2C Commerce Campaigns and Promotions](#b2c-commerce-campaigns-and-promotions)
     - [Campaigns](#campaigns)
     - [Promotions](#promotions)
+- [B2C Commerce Campaigns and Promotions (Plan and configure campaigns and promotions for your B2C Commerce storefront)](#b2c-commerce-campaigns-and-promotions-plan-and-configure-campaigns-and-promotions-for-your-b2c-commerce-storefront)
+  - [Explore Campaigns and Experience Types](#explore-campaigns-and-experience-types)
+    - [What’s a B2C Commerce Campaign?](#whats-a-b2c-commerce-campaign)
+    - [Experience Types](#experience-types)
+    - [Content Slots](#content-slots)
+    - [Sorting Rules and Keyword Search Sorting Rules](#sorting-rules-and-keyword-search-sorting-rules)
+    - [Promotions](#promotions)
+    - [What's a Qualifier?](#whats-a-qualifier)
+    - [Build the Playbook](#build-the-playbook)
+    - [What's the Process?](#whats-the-process)
+  - [Create Qualifiers](#create-qualifiers)
+    - [Coupons](#coupons)
+    - [Customer Groups](##customer-groups)
+    - [Source Codes](#source-codes)
+  - [Discount Types and Promotion Controls](#discount-types-and-promotion-controls)
+    - [Discount Types](#discount-types-1)
+    - [Control Those Promotions](#control-those-promotions)
+  - [Create Promotions](#create-promotions)
+    - [Product Promotions](#product-promotions)
+    - [Order Promotions](#order-promotions)
+    - [Shipping Promotions](#shipping-promotions)
+  - [Create Campaigns](#create-campaigns)
+    
+    
+    
+  
+    
+    
+  
+    
+  
     
 ## Salesforce User Basics
 
