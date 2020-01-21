@@ -86,9 +86,9 @@
   - [Create Campaigns](#create-campaigns)
 - [Salesforce B2C Commerce for Developers (Learn about the B2C Commerce developer tools you can use to create storefront application projects)](#salesforce-b2c-commerce-for-developers-learn-about-the-b2c-commerce-developer-tools-you-can-use-to-create-storefront-application-projects)
   - [Commerce Cloud Business Manager](#commerce-cloud-business-manager)
-  - [B2C Commerce Development Environment]()
-  - [Commerce Cloud Storefront Reference Architecture]()
-  - [B2C Commerce Business Objects]()
+  - [B2C Commerce Development Environment](#b2c-commerce-development-environment)
+  - [Commerce Cloud Storefront Reference Architecture](#commerce-cloud-storefront-reference-architecture)
+  - [B2C Commerce Business Objects](#b2c-commerce-business-objects)
   
     
     
