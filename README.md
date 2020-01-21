@@ -1191,5 +1191,129 @@ Business Manager operational tasks are also done by developers. This includes co
   The out-of-the-box Business Manager menus use menu item actions to access functionality. So changes to those areas integrate really well with the standard user interface actions. In other words, it’s easy to customize certain parts of the user interface!  
   
 ### B2C Commerce Development Environment
+
+  Whether you’re a new or an experienced B2C Commerce storefront application developer, you know the landscape. You start by looking at the tools.
+
+  The three key B2C Commerce software development tools are Business Manager, UX Studio, and the Commerce Cloud Storefront Reference Architecture (SFRA). Other tools include the following:
+
+* Templates
+* Form definitions
+* Resource bundles
+* Scripts
+* Controllers
+
+  We’ll get into more details in a minute, but first, let’s talk about the architecture.
+  
+#### The MVC Architecture
+  
+  We use the Model–View–Controller (MVC) architecture, which divides an application into three parts.
+
+* The model is the business logic, data, and rules underlying the application. Traditionally, models store the data that’s used to populate the view. In B2C Commerce, data is represented by APIs, which provide helper classes instead of storing data.
+* The view is what the shopper sees on the storefront. It’s the landing page, the product details page, QuickView, or the cart page.
+* The controller takes shopper input from entry fields, button clicks, and the like, and converts them into actions or data that’s consumed by the model or view.  
+  
+  ![GitHub Logo](/photo44.png)
+
+While this architecture provides a map of how the elements work together, the code still needs a deployment mechanism. That’s where the cartridge comes in.
+
+#### B2C Commerce Cartridges
+
+  A cartridge is how B2C Commerce packages and deploys program code and data. It delivers generic or application-specific functionality. For example, a merchant sells multiple brands, each with its own site. Because they sell apparel, all sites have similar processes. But the look and feel of the sites differ by brand. Generic cartridges contain standard processes, while application-specific cartridges contain brand-specific code and data.
+
+#### Let's Start With What We're Building
+
+  Let’s start by talking about what we’re building, from the top down.
+
+  Storefront pages display on the client, whether it’s a desktop or a mobile device. These are some standard storefront pages:
+
+* Home
+* Category
+* Product details
+* Search results
+
+  These pages are in proprietary ISML, which is based on HTML and uses CSS for formatting—industry standard stuff. Shoppers interact on these pages by clicking buttons and tabs and entering text into fields. The development tools used here are called templates and form definitions.
+
+  With these tools you can:
+
+* Validate shopper input
+* Prompt shoppers for confirmation
+* Show error or informational boxes
+* Conditionalize HTML
+
+  There’s an application processing component on both client and server. This is the code that takes the clicks and data entry from the pages and does something with it. The development tools used here are scripts and controllers.
+  
+  With these tools you can:
+
+* Add calculations and logic to business processes
+* Call web services
+* Integrate back-end systems
+* Share information across users
+  
+  Now let’s talk about the processing part.
+
+#### Coding Storefront Pages
+
+  The storefront pages are the visuals—the nifty products, flashy advertisements, and crafty discounts. For these you need templates, form definitions, and resource bundles—client-based only.
+
+##### Templates
+
+  Templates define how data and page information is transformed into HTML-based web pages. These pages are rendered on the browser using CSS for page layout and styling and the B2C Commerce form definitions for data display and verification. Templates are coded in the Internet Store Markup Language (ISML) that dynamically generates HTML. It provides a number of predefined tags (for example, <isif>/<isloop>) and uses script blocks and expressions.
+
+  With ISML, you can use a single template to show thousands of products. For example, the search results page shows a list of products in rows and columns of tiles as defined by a template.
+  
+##### Form Definitions
+
+  Form definitions let you control how customer-entered values are validated and rendered on the browser. With forms, for example, you can specify that ZIP codes must be entered as a precise series of integers; while name and address information must be entered as strings. Like with ISML, B2C Commerce form definitions use a distinct language and are proprietary.
+
+  ![GitHub Logo](/photo45.png)
+
+  Form definitions are stored in the forms folder of a cartridge (cartridge/forms/default). A form schema file identifies allowed elements and attributes. Form definitions interact with both the display and the processing parts of storefront applications.
+
+##### Resource Bundles
+
+  You want to avoid hard-coding text strings in storefront code that are visible to the shopper. Do this by storing titles, labels, messages, button and field names in resource bundles (also called .properties files). Keeping this text separate from display layout makes it easy to change the text for different purposes, especially when supporting different locales.
+  
+#### Process the Storefront Application
+
+  The processing part of the application displays, sends, calculates, or retrieves the right details from arrival to checkout—all at the shopper’s initiative. To do this, the application uses scripts and controllers.
+
+  To upload code, you must either use UX Studio or an upload utility, such as webdav, a standard protocol. Upload utilities are available from the B2C Commerce community repositories in GitHub. You can also use standard JavaScript tools, including linters and static code analysis tools.
+  
+##### Scripts 
+
+  You develop your application locally in UX Studio, but run it on the server. A JavaScript interpreter runs on the application server to process each JavaScript class or method. To the JavaScript interpreter, the source of the script call is irrelevant. This gives you flexibility in the tools that you can choose.
+
+  B2C Commerce has some serious application program interfaces (APIs) with the B2C Commerce Script APIs and the Open Commerce APIs (OCAPI). OCAPI is a RESTful API, which receives HTTP requests and returns responses. The request construction and response consumption is up to you.
+
+  Use the B2C Commerce API to build all parts of a storefront’s user experience. Use OCAPI to integrate third party systems and to unify customer journeys that go beyond the Commerce Cloud hosted experience.
+  
+  The B2C Commerce Script API supports industry standards:
+  
+* Rhino JavaScript (including ECMAScript 5, Mozilla extensions up to JavaScript 1.8 and E4X)
+* Optional type specification support from JavaScript 2.0/ECMA 4th edition proposal and ActionScript
+* ECMAScript 5 compatibility fix for the global parseInt(String) functions
+
+##### Controllers
+
+  Controllers are server-side scripts that handle storefront requests. Controllers orchestrate your storefront’s back-end processing and create instances of models and views to process each storefront request and generate an appropriate response. For example, clicking a category menu item or entering a search term triggers a controller that renders a page.
+
+  Controllers are written in JavaScript and B2C Commerce script. The file extension of a controller can be either .ds or .js. Controllers must be located in the controllers folder at the top level of the cartridge.
+
+  You can use any IDE with a JavaScript editor to develop controllers.
+  
+#### LINK Partners
+
+  The LINK marketplace is where developers go to extend their sites with third party software.
+
+  Third-party software providers join the Salesforce B2C Commerce LINK Technology Partner Program to certify their cartridges against the latest Commerce Cloud technology. Use LINK cartridges to implement the most groundbreaking and innovative ecommerce technologies available.
+
+  These cartridges take significantly less time to implement because they’re ready to go. There are lots of solutions, many in the following categories:
+
+* Payment providers
+* Rating and reviews
+* Tax address verification
+* Social personalization
+
+
 ### Commerce Cloud Storefront Reference Architecture
 ### B2C Commerce Business Objects
