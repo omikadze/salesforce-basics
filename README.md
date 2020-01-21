@@ -84,6 +84,12 @@
     - [Order Promotions](#order-promotions)
     - [Shipping Promotions](#shipping-promotions)
   - [Create Campaigns](#create-campaigns)
+- [Salesforce B2C Commerce for Developers (Learn about the B2C Commerce developer tools you can use to create storefront application projects)]()
+  - [Commerce Cloud Business Manager]()
+  - [B2C Commerce Development Environment]()
+  - [Commerce Cloud Storefront Reference Architecture]()
+  - [B2C Commerce Business Objects]()
+  
     
     
     
@@ -1065,3 +1071,125 @@ Here’s how he creates his campaign.
 ![GitHub Logo](/photo36.png)
 ![GitHub Logo](/photo37.png)
 
+## Salesforce B2C Commerce for Developers (Learn about the B2C Commerce developer tools you can use to create storefront application projects)
+
+### Commerce Cloud Business Manager
+
+  Business Manager is the Salesforce B2C Commerce online tool for configuring and managing B2C Commerce storefronts. This important tool is the command center for your B2C Commerce merchandising, administration, and site development capabilities. To use Business Manager, you must have access to a B2C Commerce instance. 
+
+#### Get Started with the Business Manager User Interface
+
+  When you open Business Manager, you must first select a site. You can have a few sites or many, depending on the size of your company and how many sites you support. Once you select a site, you can access the data, code, and permissions that are configured for it
+  In B2C Commerce, a site and its associated code combine to create a storefront. A storefront is the user's online experience. A site can have multiple storefronts. (When referring to a merchant's website, we use the term storefront.)
+  
+  Click Storefront to open the site you’ve selected in another window. The site shown here is a sample site that demonstrates the architecture of B2C Commerce.
+  
+  ![GitHub Logo](/photo38.png)
+  
+  Typically, you want to see your own site.
+
+  You might also see icons for the Storefront Toolkit, a development tool that helps developers troubleshoot.
+  
+  ![GitHub Logo](/photo39.png)
+  
+  This toolkit is automatically linked to the Business Manager site that you just came from. How convenient!
+
+ #### Personas
+ 
+ People in three types of job roles are most likely to use Business Manager. We call these job roles personas.
+
+ ![GitHub Logo](/photo40.png)
+ 
+  With large merchants, each persona can have a distinct function that’s held by multiple people. Large merchants often work with partners, who have a team of developers. Small and medium merchants often blur personas, so that multiple job responsibilities are handled by a few people.
+
+#### Where Personas Work in Business Manager
+
+Two tabs in Business Manager—Merchant Tools and Administration—contain the functionality used by all three personas. Let’s explore the tab used by our first persona, merchandisers.
+
+##### Merchant Tools Tab
+
+  The Merchant Tools area is where merchandisers manage site-specific configuration settings, and storefront data such as products, catalogs, content, search, campaigns, and promotions.
+  
+  ![GitHub Logo](/photo41.png)
+  
+  This is also where they configure functionality that helps bring shoppers to the site; namely, search URLs and the robots.txt file. Webmasters create this file to instruct web robots (typically search engine robots) how to crawl pages on their website.
+
+  Merchandisers can also review customer data, though it’s typically stored in an external database. The same is true for order details, which can come directly from shoppers on a storefront or through add-on systems like Order Management for B2C Commerce and Customer Service Center. These products are part of the Commerce Cloud product suite.
+
+##### Cross-Functional Tools
+
+  Some functionality within Merchant Tools crosses persona boundaries. This includes site analytics and content slots.
+
+  Business Manager Analytics reflects site data that’s captured on production storefronts, aggregated by B2C Commerce, and reported in Business Manager. Data such as carts to orders—the percentage of carts that were ordered from the total cart count—is extremely useful to merchandisers. Other data, however, such as pipeline performance summary data and object churn trends, is more useful to developers.
+
+  A content slot can be embedded in any part of your storefront to show products, categories, content assets, or static HTML based on a schedule. You can personalize what it contains based on a customer group. A content asset can be a flash graphic, product carousel, product search result set, or marketing graphic.
+  
+  ![GitHub Logo](/photo42.png)
+  
+  Content slots require both developer and merchandiser involvement. First, a developer adds code to HTML pages, creates rendering templates, and uploads the code to the server. Then the merchandiser uses Business Manager to create and schedule the slot configuration.
+
+##### Administration Tab
+
+  The second tab, used by our administrator and developer personas, is called Administration. In this tab, the administrator:
+
+* Imports and exports site data
+* Moves data and code to and from site instances
+* Manages customer lists and content libraries
+  
+  If you’re an administrator, you configure global settings that apply to all the sites in an organization. An organization contains all the sites that are configured for a merchant. Global settings, also called preferences, include:
+
+* Locales and regional settings to support multiple languages
+* Password restrictions and login lockout policies for Business Manager users
+* Time zones
+* Order and customer sequence numbers
+
+##### The Developer Persona
+
+Finally, we can talk about the developer persona. These are the people who develop storefront applications using a variety of software development tools (in this case, Business Manager).
+
+A developer typically opens three windows with:
+
+* The Integrated Development Environment (IDE), where they write and test the application
+* Business Manager, which is used to open the storefront site
+* The storefront application, where they see the real-time results of any code or data changes
+
+Let’s focus on Business Manager, where developers can do the following:
+
+* Create new sites
+* Troubleshoot problems.
+* Navigate to XChange, the Commerce Cloud Community portal, where they can download the latest version of UX Studio.
+* Configure code versions
+* Register cartridges (containing code or data) with the server
+* Manage page cache settings
+* Set the site to online
+* Manage site taxation
+* Create custom error and maintenance pages to steer the shopper to what they want to buy
+
+Business Manager operational tasks are also done by developers. This includes configuring credentials and security and tracking quota status. Quotas are internal limits that keep the systems running nicely.
+
+##### Permissions
+
+  Access to Business Manager areas or modules is based on job tasks, also called roles. The most important role is the administrator (admin), who manages users and permissions. The admin starts by defining the organization and all its storefronts, and setting default languages. They then create additional roles.
+  
+  ![GitHub Logo](/photo43.png)
+
+##### Localization  
+
+  Business Manager supports multiple languages in both its user interface and in the underlying data that’s created, edited, and shown within it—to be used on the storefront. You can configure locales separately for viewing the application and for managing the data. For example, a shopper could view English products and content using a Japanese-language Business Manager.
+
+  The admin user selects the preferred locale for the Business Manager display language, and when creating or editing a user profile. A Business Manager user can then select a different display language in their user profile.
+  
+##### Customize Business Manager
+  
+  You can customize the following parts of the Business Manager user interface to make it your own:
+
+* Menu items
+* Menu actions
+* Dialog actions
+* Forms
+  
+  The out-of-the-box Business Manager menus use menu item actions to access functionality. So changes to those areas integrate really well with the standard user interface actions. In other words, it’s easy to customize certain parts of the user interface!  
+  
+### B2C Commerce Development Environment
+### Commerce Cloud Storefront Reference Architecture
+### B2C Commerce Business Objects
