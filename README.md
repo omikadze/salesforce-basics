@@ -1314,6 +1314,50 @@ While this architecture provides a map of how the elements work together, the co
 * Tax address verification
 * Social personalization
 
-
 ### Commerce Cloud Storefront Reference Architecture
+
+  What better way to show what an online storefront site looks like than to build one that you can view and use as a code base? That’s exactly what we did with SFRA. But this architecture is more than just a code base: It provides the blueprint for site design.
+
+  Using a reference architecture is all about speedy innovation! Build sites faster with a full library of core site capabilities developed with industry best practices. Hundreds of out-of-the-box features include cart, checkout, homepage, product detail pages, and more. Also, quickly adopt technologies like Apple Pay–giving your shoppers an awesome experience.
+
+  The SFRA customization model makes it easy for you to build, maintain, and update your storefront. It sits outside of the platform API layer and uses a conventional Model-View-Controller (MVC) architecture. We talked about APIs and the MVC architecture in the Salesforce B2C Commerce Development Environment unit.
+
+  Developers are free to customize and extend the SFRA code base. Brands are empowered to design pixel perfect sites and meticulously build unique web experiences. Developers bring in new code, integrate with third-party providers, and iterate on their site designs. As a result, merchants completely own their storefront and the underlying code base.
+
+
+#### Mobile First Design
+
+  Historically, most web designers focused on the desktop first, with mobile second. Even with responsive design, the focus started with the desktop, with additional code for mobile.
+
+  Responsive design adapts what’s on the screen based on the screen size.
+
+  Mobile isn’t a trend. It’s the present. More and more people use mobile devices to do all kinds of things, especially shop online. Holding a computer in your hand is a powerful thing.
+
+  Mobile-first designs for the smallest screen, and then works its way up. It’s one of the best strategies to create either a responsive or adaptive design.
+
+  Adaptive design detects the device and other features, and then provides the appropriate feature and layout based on a predefined set of viewport sizes and other characteristics.
+
+
+#### Let's Talk Architecture
+
+  A reference architecture serves as a starting point for online storefront design, and combines best practices in site design and storefront architecture. It gives you a blueprint for building and customizing your ecommerce storefronts.
+ 
+ ![GitHub Logo](/photo46.png)
+ 
+ The Commerce Cloud Storefront Reference Architecture (SFRA) uses JavaScript controllers. In B2C Commerce, controllers are server-side scripts that handle storefront requests. They manage the flow of control in the application, and create instances of models and views to process each storefront request and generate an appropriate response. For example, the shopper clicks a category menu item or enters a search term, which triggers a controller that renders a page.
+
+  The SFRA makes it easy to segment B2C Commerce delivered code, merchant customizations, and third-party integration code into discrete cartridges—making it easier to maintain and update the contents of each cartridge.
+
+  In B2C Commerce, a cartridge contains code or data. This means that developers can build new components, for example, features such as wishlist, Apple Pay, and payment integrations, and independently plug them into the storefront. This architecture allows for a lightweight and cleaner codebase for continuous, iterative, and evolutionary site design. The core code is not available for edit, while developers are free to develop functionality on top of it.
+
+
+*Best Practices UI Development
+The SFRA uses the popular Bootstrap front-end component UI library. Bootstrap is an open source toolkit for developing with HTML, CSS, and JS. It lets you quickly prototype your ideas or build your entire app with its Sass variables and mixins, responsive grid system, extensive prebuilt components, and powerful plugins built on jQuery.
+  
+#### LINK Partners
+  The B2C Commerce LINK Technology Partner Program provides a world-class ecosystem of rich, robust capabilities that merchants use to deliver best-in-class ecommerce solutions. LINK Partners work hard to integrate their technologies with B2C Commerce. Once integrated, the technologies are delivered to global B2C Commerce customers through the LINK Marketplace.
+
+  The most-used LINK cartridges—Paypal, CyberSource, Bazaarvoice (Ratings & Reviews), Avalara (Tax), Adyen, Experian QAS (AVS)—are available in the SFRA. When evaluating new site designs or redesigns, merchants and SI implementers should consider the LINK ecosystem to extend the commerce experience.
+  
+  
 ### B2C Commerce Business Objects
