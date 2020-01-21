@@ -90,16 +90,9 @@
   - [Commerce Cloud Storefront Reference Architecture](#commerce-cloud-storefront-reference-architecture)
   - [B2C Commerce Business Objects](#b2c-commerce-business-objects)
   
-    
-    
-    
   
     
-    
-  
-    
-  
-    
+
 ## Salesforce User Basics
 
 ### Welcome to Salesforce
@@ -1361,5 +1354,72 @@ The SFRA uses the popular Bootstrap front-end component UI library. Bootstrap is
   
 ### B2C Commerce Business Objects
 
+  B2C Commerce is an object-oriented system, so it’s important to understand some basic principles, starting with objects. An object is a self-contained entity that contains data. A single object is organized so that the data describes the object. For example, a Dress object looks like this:
 
+Dress
 
+* Size
+* Color
+* Fabric
+* Occasion
+* Sleeves
+* Neckline
+* Length
+
+  The Dress object only contains data that describes the dress. It doesn’t contain data that describes something else, such as a bracelet, for example.
+
+  The data, such as Color in this example, is stored in fields that are also known as attributes. Attributes are used to describe an aspect of the object. In this case, if you told a friend you were going to describe something and then said, “Size, Color, Fabric, Occasion, Sleeves, Neckline, and Length,” they would likely say that you were talking about a dress (or maybe a blouse). Dress is the object, while Color is the object’s attribute.
+  
+  Business objects define the structure of B2C Commerce storefront data. Business objects can be system objects that come with the system, or custom objects that you can use to add additional capability to your application. Custom objects require custom code.
+
+#### System Objects
+
+  B2C Commerce provides 63 system object types, from Appeasement to TrackingRef. Some are marked as read-only in your version of Business Manager. You can’t customize the internal B2C Commerce system by creating new system objects, but you can create new custom system objects to meet your business needs. This is an important distinction! System object types define the attributes that are contained in system objects. They act like a map.
+
+  The Commerce Cloud Storefront Reference Architecture (SFRA) uses system objects to describe parts of its site. This makes it useful as a starting point for storefront application development, because it was developed to interact with system objects—eliminating the need for custom code.
+
+  To ensure that your implementation fully uses the available system objects, you should get familiar with them. In Business Manager, B2C Commerce’s online tool for configuring, administering, and developing your storefront application, you can: 
+  
+* View system objects
+* View the attributes of each system object
+* Edit the attributes, including creating new attribute values
+* View attribute groups
+* Create new attribute groups
+
+  B2C Commerce’s rich library of system objects already addresses most of the data you need in your storefront application, such as product details, content, orders, and promotions. Using these objects greatly speeds implementation, because you can take advantage of code that’s developed for these objects.
+
+ ![GitHub Logo](/photo47.png)
+
+#### Extend System Objects
+
+  You can extend system objects to collect more information from your shopper, tailor your storefront site to show additional information, and help you process orders more efficiently, depending on your back-office needs.
+  
+  For example, you can add an addToEmailList attribute to the basket object, which would display a Please Add Me To Your Email List checkmark box on the shopping cart page. You would also need to add the code to display and process this data.
+
+#### Group Objects to Collect More Data
+
+  Business Manager is where you manage storefront data, such as product and content details. Though system objects come with a standard set of attributes, you can always add attributes if you want to add more data. For example, you can give your shoppers the ability to pick up items in your brick-and-mortar store by adding an attribute. We’ve already added this attribute, because it’s a great feature, by creating an attribute group called InStorePickup.
+
+  On the storefront, this feature shows up at checkout. But in Business Manager, it shows up on the product details page where you manage your product data. You can set specific products to be available for in-store pick-up.
+
+  Of course, you also have to write the underlying application code that handles this on your storefront, but we’re just talking about business objects.
+
+  To show a system attribute within Business Manager, the attribute must belong to a group. Otherwise, it won’t appear on a Business Manager page. That’s not the same as appearing in the storefront
+  
+   ![GitHub Logo](/photo48.png)
+
+#### Custom Objects
+
+  You can use custom objects to extend the B2C Commerce model to suit your business needs. In Business Manager, you first create custom object types and define the attributes they contain. Then you create the custom objects based on those attributes.
+
+  Custom object types are available to be used in all the storefronts sites that are defined for the organization. However, you can choose, when creating a custom object, if it’s site-specific or organization-wide. We talked about organizations in the Business Manager unit in this module.
+
+   ![GitHub Logo](/photo49.png)
+
+#### Best Practices
+
+  Use system objects instead of custom objects whenever possible to make it easier to upgrade to the latest reference architecture and eliminate unnecessary customization.
+
+  Use system attributes instead of custom attributes whenever possible.
+
+  
