@@ -1359,5 +1359,7 @@ The SFRA uses the popular Bootstrap front-end component UI library. Bootstrap is
 
   The most-used LINK cartridges—Paypal, CyberSource, Bazaarvoice (Ratings & Reviews), Avalara (Tax), Adyen, Experian QAS (AVS)—are available in the SFRA. When evaluating new site designs or redesigns, merchants and SI implementers should consider the LINK ecosystem to extend the commerce experience.
   
-  
 ### B2C Commerce Business Objects
+
+
+
