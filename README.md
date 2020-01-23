@@ -90,6 +90,10 @@
   - [Commerce Cloud Storefront Reference Architecture](#commerce-cloud-storefront-reference-architecture)
   - [B2C Commerce Business Objects](#b2c-commerce-business-objects)
   
+- [Architecture of Salesforce B2C Commerce]()
+  - [Get Started Configuring Your B2C Commerce Sites]()
+  - [Learn About Importing and Exporting Data]()
+  - [Learn About B2C Commerce Replication]()
   
     
 
@@ -1422,4 +1426,74 @@ Dress
 
   Use system attributes instead of custom attributes whenever possible.
 
+  
+## Architecture of Salesforce B2C Commerce
+Learn the architecture and tools you use to develop for Salesforce B2C Commerce.
+
+### Get Started Configuring Your B2C Commerce Sites
+
+Salesforce B2C Commerce includes the resources and processes you need to run your ecommerce storefronts. You don’t interact directly with the cloud; it’s the foundation that supports your site. This unit explains how it all works: realms, PIGs, SIGs, and the types of instances that run on them.
+
+When a site is created, or provisioned, it is structured into what is called a realm, which includes two groups: the primary instance group (PIG) and the secondary instance group (SIG). Realms are merchant-specific. Both groups include tools that you can use to configure your ecommerce site.
+
+![GitHub Logo](/photo50.png)
+
+#### Realms
+
+Merchants typically have a single realm that’s just for them. A realm contains instances on which to develop, test, and deploy a storefront application. A B2C Commerce instance is an application infrastructure that includes the following components:
+
+* Web servers
+* Application servers
+* Database servers
+
+Typically, a merchant receives nine instances per realm. This includes three instances for staging, testing, and deployment on the PIG, five sandbox instances for code development on the SIG, and one demo instance. For scalability, customers can have up to 47 sandboxes per realm.
+
+Within Business Manager, the B2C Commerce tool for site configuration and management, you use the PIG instances as follows.
+
+* Staging—For site configuration, data enrichment, and data import
+* Development—For testing the site before deployment
+* Production—For hosting the live site that's visited by shoppers
+
+#### Single and Multiple Realm Configurations
+
+Typically, a merchant has a single realm in which to develop, stage, and deploy multiple sites with different branding or locales. The people managing the storefront site don’t need to be in the same location. Sites can share product catalogs or have different catalogs. They can even share some site admin settings.
+
+Merchants with multiple lines of business or global teams that each have their own processes or business policies often use multiple realms. Separate realms are also useful for merchants with distinct organizations that have separate back-end integrations, schedules, or other concerns that are better managed independently.
+
+![GitHub Logo](/photo51.png)
+
+While sites in the same realm can share the same master catalog for product data, sites in different realms can’t share data through the catalog structure. They can, however, share data by importing it into different realms.
+
+Say you have two sites with separate brands: one in Europe and the other in the Pacific Rim. You can have a realm for the team managing the Pacific Rim site and another realm for the team managing the European site.
+
+#### Sites and Organizations
+
+In Business Manager, you can configure one or more sites within each instance. The multiple sites on a particular instance are considered an organization. When you configure settings, for example, you can configure them as site-specific (one site) or across all the sites (the organization).
+
+#### Instances
+
+A B2C Commerce instance contains the tools and resources for customizing storefronts. View an instance by typing its URL in a browser or open it in Business Manager. The four types of instances—sandbox, staging, development, and production—have different considerations:
+
+![GitHub Logo](/photo52.png)
+
+#### Instance Type Users
+Depending on the size of the team, a person can play multiple roles. These are some general responsibilities.
+
+![GitHub Logo](/photo53.png)
+
+### Learn About Importing and Exporting Data
+
+
+
+
+
+
+
+
+
+
+
+
+
+### Learn About B2C Commerce Replication
   
