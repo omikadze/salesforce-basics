@@ -1581,6 +1581,105 @@ Use controllers for added import/export flexibility. Add business logic to your 
 A development instance is the testing environment for your production instance. You can do an initial site import/export from a staging to development instance to set it up. After that, use data replication to update data and code on that instance.
 
 
-
 ### Learn About B2C Commerce Replication
   
+Replication is a Salesforce B2C Commerce process that pushes data and code from a staging instance to a development or production instance in a controlled manner, minimizing the risk of errors. Replication only happens on instances in the primary instance group (PIG), and not on the secondary instance group (SIG) or sandboxes.
+
+![GitHub Logo](/photo57.png)
+
+#### Source and Target
+
+During replication, changes are pushed from a replication source to a replication target. The replication source is always the staging instance; while the replication target can be a development or production instance. While the main goal of replication is to push changes from staging to production, a preliminary step is to push the same changes to development. This lets you verify that replication was successful.
+
+#### Replication Control
+
+Start by creating a replication process in Business Manager, the B2C Commerce tool for site configuration and management. A replication process is a collection of replication tasks that specify the changes since the last replication. The changes can be data (such as product data, content, and image files) or code.
+
+You can define multiple replication processes and specify which replication tasks to include in each. This lets you control the level of granularity that’s pushed each time. You can push an entire site or a selected subset; for example, just the site's custom objects. You have a similar flexibility with organization-level changes.
+
+Schedule start and end dates during times of low traffic, so it doesn't impact your site's performance, or adversely affect the shopper experience.
+
+##### Two-Step Publishing
+
+You can replicate data via two-step publishing, which helps you avoid running the entire process only to have it fail. This process helps if you’re just starting your replication and transfer processes, and need more control over the results.
+
+1. Transfer—Create a new replication, configure it for your site, and select Transfer as the replication type. If the transfer fails, figure out what went wrong. Once you've fixed it, try again.
+2. Publish—Create a second task called Data Publish to publish the data. For data replication, the data in the transfer and publish tasks must match. For example, you can’t transfer catalog, index, and promotion data, and then only publish catalog data.
+
+#### Data Replication
+
+Because data replication is intended to push the latest version of a storefront into production, it’s a replace operation, and not a merge. Data replication first creates a copy of the data from the source instance at a new location in the target instance, without replacing the original data. When the process completes, you switch from the existing data to the new data in the target system, effectively replacing the data. It’s seamless and instantaneous.
+
+The first time you replicate data, all the data is included. For subsequent replications, you can replicate on a granular level. For example, you can replicate individual sites and their associated catalogs: all catalogs, one catalog, or the standard catalog.
+
+##### Choosing Data to Replicate
+
+B2C Commerce data can have an organization or site scope. At the organization level, data is shared by all sites. At the site level, data is only used by an individual site. Within each scope, you can select different sets of data to replicate, such as all of the organization's catalogs or a specific storefront's promotions and coupons. This is the lowest level of data replication granularity supported. This capability is useful when some data is ready to replicate and some isn’t. For example, new content assets might be ready for production, while new catalog definitions aren’t.
+
+There are some limitations. You can’t select a single product in a catalog or a promotion from within a data set to replicate. Data replication doesn’t copy these from staging:
+
+* Orders
+* Inventory lists
+* Business Manager user profiles and login credentials
+
+##### Schedule Data Replication
+
+You can schedule a replication process four ways.
+
+* Automatic—At a specified date and time, by default, or immediately after you’ve defined the replication process
+* Manual—Ready to be started in Business Manager by a user with the proper permissions
+* Recurring—On a daily, weekly, or monthly schedule
+* Job Step—When triggered by a job
+
+Be careful when you replicate. If a recurring data replication fails, subsequent repetitions of the job won’t run. Replication usually clears the page cache, which can have a dramatic impact on storefront performance.
+
+##### Best Practices
+Here are some data replication best practices.
+
+* Test the replication process from staging to development first.
+* Test the resulting configuration on development to ensure it works as expected.
+* Always run transfer, followed by publish so you can verify the transfer process.
+* Identify dependencies between different data replication groups.
+* Always replicate the search indexes with catalogs.
+* Perform the transfer to production step when storefront activity is at a minimum.
+* Disable incremental and scheduled indexing and stop other jobs while replicating data. Though incremental indexing doesn’t need to be disabled for the transfer, it must be disabled before you publish. You can either replicate the search index or manually build it on the target instance.
+* Avoid major data replications during the B2C Commerce standard maintenance windows.
+* Use Business Manager permissions to limit who can perform data replication.
+
+#### Code Replication
+
+With Business Manager code replication, you replicate a code version between a source and a target instance. A code version is a folder that contains custom cartridges. An instance can have multiple code versions, but only uses the active code version.
+
+When you’ve finished developing in your sandbox, use UX Studio to create a new server connection and upload your code to staging. The server connection should be secure.
+
+![GitHub Logo](/photo58.png)
+
+On the production instance, a new version is automatically created, named a combination of the original version name with a timestamp. You can copy the code to production without activating it, or copy it while making it active. If you need to revert to a previous code version, B2C Commerce knows which version was previously active and reactivates it. We suggest you do the following on a production instance.
+
+1. Deploy the code version on staging.
+2. Replicate the code (and data) to development to test the process.
+3. Replicate the code to production.
+
+
+##### Replication Types
+
+Configure the target system to create code replication processes with a manual, automatic, or job step start. These are the replication types.
+
+![GitHub Logo](/photo59.png)
+
+
+##### Email Notification
+
+You can configure email notifications for code replications using a comma-delimited list of recipients. An email is sent after the process finishes or fails. If the process hangs, no email is sent.
+
+
+#### Replication Groups
+
+Replication groups (or tasks) let you organize your data and processes in a manageable way. You can also replicate data at the site level, organizational level, or both. Custom objects, for example, can be replicated at both the organizational and site level.
+
+Business Manager groups multiple objects that are replicated together. Spend time reviewing the relationships among the objects to understand their complexity.
+
+#### Data/Code Replication Versus Import/Export
+
+* Replication moves data from one instance to another, once the data is already in a B2C Commerce database.
+* Import and export moves data to and from external systems, from and to a B2C Commerce Database.
