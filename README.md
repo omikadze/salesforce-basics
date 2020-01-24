@@ -90,10 +90,10 @@
   - [Commerce Cloud Storefront Reference Architecture](#commerce-cloud-storefront-reference-architecture)
   - [B2C Commerce Business Objects](#b2c-commerce-business-objects)
   
-- [Architecture of Salesforce B2C Commerce]()
-  - [Get Started Configuring Your B2C Commerce Sites]()
-  - [Learn About Importing and Exporting Data]()
-  - [Learn About B2C Commerce Replication]()
+- [Architecture of Salesforce B2C Commerce](#architecture-of-salesforce-b2c-commerce)
+  - [Get Started Configuring Your B2C Commerce Sites](#get-started-configuring-your-b2c-commerce-sites)
+  - [Learn About Importing and Exporting Data](#learn-about-importing-and-exporting-data)
+  - [Learn About B2C Commerce Replication](#learn-about-b2c-commerce-replication)
   
     
 
