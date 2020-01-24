@@ -1483,15 +1483,102 @@ Depending on the size of the team, a person can play multiple roles. These are s
 
 ### Learn About Importing and Exporting Data
 
+Most merchants have back-end systems, which are their systems of record. The Salesforce B2C Commerce application environment has its own databases and servers designed to support storefronts. The B2C Commerce import/export functionality bridges the gap.
+
+Think of the flow of data: From a system of record to B2C Commerce and from B2C Commerce capture to system of record. Product details such as SKU numbers, product descriptions, sizes, images, prices, and video are developed in a system of record and then imported into B2C Commerce. Shoppers create orders that are exported to external system for processing. While coupon codes can be imported into B2C Commerce, the act of redeeming a coupon by a shopper creates data that is exported.
+
+Import uses data from an external file to populate the B2C Commerce database. Export lets you extract data from the B2C Commerce database and create XML files that can be used as feeds for external systems. A feed is a specific import or export process.
+
+![GitHub Logo](/photo54.png)
+
+Data is exported from production.
+
+These are not storefront data import/export processes.
+
+* Data replication is when you copy code and data from one instance to another. We talk about data replication in the next unit.
+* The Business Manager catalog feed feature processes third-party files (such as for Certona).
+* Site import/export moves site-specific configuration and setting information from one instance to another.
+
+#### Schemas
+
+Schema files specify the file structure expected by B2C Commerce import and export. B2C Commerce only accepts XML import files formatted by these schemas. The schemas also document the required data attributes. Imported data must match the schema, or it won’t import.
+
+B2C Commerce exports in XML format, except for coupon codes, which export to CSV format. We recommend you use a third-party program to process .csv files into the required XML format. It’s a lot faster and more efficient to transform a file using a pure .NET or a Java platform with a large amount of memory allocated to the processing.
+
+So what are these schema files? It turns out there are a lot of them. Here are some examples:
+
+* sort.xsd
+* coupon.xsd
+* couponredemption.xsd
+* order.xsd
+* Promotion.xsd
+
+#### Modes
+
+You specify an import mode to define how B2C Commerce interprets the data within an import feed. The mode applies to all objects within a feed and to all import files defined by the schemas.
+
+![GitHub Logo](/photo55.png)
+
+These are the import modes.
+
+![GitHub Logo](/photo56.png)
+
+Be careful when you delete objects in an import. Delete mode deletes objects that are in the feed. Likewise, replace mode deletes and then re-creates objects that are in the feed. Performing a replace import just to change one object deletes the entire object set.
+
+Some schemas support an attribute mode at the import element level. In this case, the only supported mode is delete, where the import mode for the process can be overwritten for a particular element. This is useful with changed information, where a single import process creates, updates, and deletes objects.
+
+##### Production Feeds
+
+We recommend that production feeds only contain changes from the previous feed. These are called delta feeds. They are smaller to archive, faster to import, and easier to troubleshoot. However, some schemas have elements that override the global import mode and always use the replace mode. These elements can't be included in delta feeds, because they require the full set of objects to be included in each import.
+
+##### List-Type Elements
+
+The standard behavior for list-type elements in the XML files is to replace the entire list, regardless of import mode. If the list element isn’t contained in the import file:
+
+* In merge mode, the list remains.
+* In replace mode, the list is deleted.
+
+#### The Import/Export Process
+
+This is a typical import process.
+
+1. Use WebDAV, SFTP, or HTTPS to transfer the XML file from your back-end system to a B2C Commerce instance.
+2. For staging or production instances, set up a secure connection for the file transfer. Sandboxes don’t require it.
+3. Import the XML file into the instance using Business Manager, or create a custom controller. B2C Commerce provides import pipelets for most standard imports that can deal with large data sets, are fast and reliable, and use system resources efficiently. We recommend using them when business objects must be loaded into B2C Commerce instead of using custom logic with B2C Commerce script or pipelets.
 
 
+This is a typical export process.
+
+1. Export the database objects to an XML file using the schemas. Do this manually through Business Manager or by creating a custom controller. You can use B2C Commerce export pipelets for most exports. In some cases, they’re more granular with the objects than Business Manager. You must create a controller to automate data exports.
+2. Transfer files from the instance to the merchant back-end system.
+3. Configure a secure connection if you need to meet PCI-DSS (security) requirements for transferring the data or for back-end system requirements.
 
 
+#### Instance-Specific Details
 
+You’ll use B2C Commerce import/export in different ways, based on the instance type. We explore each instance type separately.
 
+##### Sandbox
 
+When developing your site, each developer uses a separate sandbox. You can create an initial sandbox that’s used as a template for additional sandboxes, so that site configuration is only done once.
 
+You first transfer data files from your local machine to the instance. Then you import the data into the instance database using Business Manager. When your first sandbox has the configuration and data you want for your development team, use Site Export to export the site contents and configuration, and then download them to your developer machines.
 
+During development, you can import new product and price feeds directly into each sandbox. Each sandbox uses the same import files, but must independently import them. You can also create custom controllers to automate data import, a step that’s usually done to support automatic data import for staging and production systems. Another sandbox can then use Site Import to get the configuration and contents.
+
+##### Staging and Production
+
+The primary instance group (PIG) contains the development, staging, and production instances. Use a custom controller to move data via a secure connection from a back-end system to one of these instance types. For infrequent feeds, import them only into staging and then replicate them to production. This protects your production instance from problems with imported data.
+
+Some feeds might require additional enhancement in Business Manager; for example, if you want to manually add web-only descriptions or other information. Feeds that require enhancement are updated in staging and then the data is replicated to production.
+
+It’s not practical to stage and replicate data that must be changed frequently, so frequent feeds are imported directly into production. Frequent feeds are imported into staging and production at the same time, so the instances remain synchronized. Remember, your staging instance should always reflect production.
+
+Use controllers for added import/export flexibility. Add business logic to your controller to add values to your import file, update search indexes automatically, or archive the import file. When you export data from production, you can add business logic to your controller to change the format of the export file, add values, or do other processing.
+
+##### Development
+
+A development instance is the testing environment for your production instance. You can do an initial site import/export from a staging to development instance to set it up. After that, use data replication to update data and code on that instance.
 
 
 
