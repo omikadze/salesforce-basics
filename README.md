@@ -1803,3 +1803,28 @@ He also needs Java SE Development Kit (JDK) Version 8 on his local computer, so 
 
 #### Set Up a Workspace
 
+When Vijay starts Eclipse, he must specify a workspace. He chooses a location on his local system that has plenty of space.
+
+![GitHub Logo](/photo71.png)
+
+#### Install the UX Studio Plug-In
+
+Now that Vijay has installed Eclipse and Java and specified a workspace on his local system, he’s ready to install the B2C Commerce UX Studio plug-in. But first, he needs to determine the version of Eclipse he uses so he can upload the correct version of the plug-in using its URL.
+
+This table shows all the options that Vijay can enter in the Location field when he specifies the Eclipse version. We recommend that you always work in a sandbox instance when developing your storefront application. (We talk about working in sandboxes in the next topic.)
+
+![GitHub Logo](/photo72.png)
+
+Now that he’s figured out which plug-in URL to use, here’s how he installs it.
+
+![GitHub Logo](/photo73.png)
+![GitHub Logo](/photo74.png)
+
+Now Vijay opens the Digital Development perspective. This is the perspective you work in to develop your storefront. Here’s how he does it.
+
+![GitHub Logo](/photo75.png)
+
+
+#### Connect to Your Sandbox
+ 
+
