@@ -94,8 +94,14 @@
   - [Get Started Configuring Your B2C Commerce Sites](#get-started-configuring-your-b2c-commerce-sites)
   - [Learn About Importing and Exporting Data](#learn-about-importing-and-exporting-data)
   - [Learn About B2C Commerce Replication](#learn-about-b2c-commerce-replication)
+ 
+- [Explore the Developer Resources](#)
+  - [Get Started with XChange](#)
+  - [Join the B2C Commerce Developer Community]()
+  - [Join the Partner Community]()
+  - [Find Release Information]()
+  - [Search the Documentation]()
   
-    
 
 ## Salesforce User Basics
 
