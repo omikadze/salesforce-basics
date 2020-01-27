@@ -102,7 +102,7 @@
     - [Join the Partner Community](#join-the-partner-community)
     - [Find Release Information](#find-release-information)
     - [Search the Documentation](#search-the-documentation)
-  - [Install and Configure UX Studio]()
+  - [Install and Configure UX Studio](#install-and-configure-ux-studio)
   - [Access the GitHub Repositories]()
   - [Install and Configure SFRA]()
   
