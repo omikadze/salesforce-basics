@@ -1831,4 +1831,43 @@ This optional repository is also available.
 
 ![GitHub Logo](/photo79.png)
 
+### Install and Configure SFRA
+
+Vijay is almost ready to start using Commerce Cloud Storefront Reference Architecture (SFRA). He just he needs to do a few last things. In this unit, he learns how to install the other packages that SFRA requires. He also learns how to build and upload the code, add data, and index the site. Once he’s done all that, he can browse and search in the SFRA storefront.
+
+#### Install Packages
+
+![GitHub Logo](/photo80.png)
+
+#### Compile the JavaScript and Style Sheets
+
+Next, he compiles some of the SFRA code. Here’s how he does it.
+
+* Open the terminal.
+* Navigate to the top level of the storefront-reference-architecture repository.
+* Enter this command: npm run compile:js
+* Enter this command: npm run compile:scss
+* Enter this command: npm run compile:fonts
+
+#### Upload the Cartridges
+
+![GitHub Logo](/photo81.png)
+
+#### Add Data to SFRA
+
+![GitHub Logo](/photo82.png)
+
+#### Generate the Search Index
+
+![GitHub Logo](/photo83.png)
+
+#### View the Storefront
+
+![GitHub Logo](/photo84.png)
+
+
+
+
+
+
 
