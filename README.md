@@ -19,7 +19,7 @@
 - [Salesforce B2C Commerce (Explore how B2C Commerce transforms the online shopping experience)](#salesforce-b2c-commerce-explore-how-b2c-commerce-transforms-the-online-shopping-experience)
   - [B2C Commerce Shopping Experience](#b2c-commerce-shopping-experience)
   - [B2C Commerce Features](#b2c-commerce-features)
-- Salesforce B2C Commerce for Merchandisers(#Configure product listings, make them easy to find, and give shoppers discounts they love.)[#salesforce-b2c-commerce-for-merchandisers--configure-product-listings-make-them-easy-to-find-and-give-shoppers-discounts-they-love-]
+- [Salesforce B2C Commerce for Merchandisers(Configure product listings, make them easy to find, and give shoppers discounts they love.](#salesforce-b2c-commerce-for-merchandisers--configure-product-listings-make-them-easy-to-find-and-give-shoppers-discounts-they-love-)
   - [B2C Commerce Product Data](#b2c-commerce-product-data)
   - [B2C Commerce Search](#b2c-commerce-search)
   - [B2C Commerce Campaigns and Promotions](#b2c-commerce-campaigns-and-promotions)
