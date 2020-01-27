@@ -1774,3 +1774,61 @@ If you have a sandbox instance of B2C Commerce, you can try out these steps in y
 Let’s see how Vijay connects UX Studio on his local machine to his B2C Commerce sandbox instance.
 
 ![GitHub Logo](/photo76.png)
+
+### Access the GitHub Repositories
+
+Cloud Kicks, our growing high-end shoe retailer, based its existing storefront on the SiteGenesis application. Management now wants to use the Commerce Cloud Storefront Reference Architecture (SFRA) for all future development. Making full use of the latest ecommerce technology can help the company leap over the competition—sporting its stylish new shoe brand, of course. Vijay Lahiri, the Cloud Kicks developer, is excited about this project.
+
+SFRA, like SiteGenesis, is a real working storefront that’s already set up using best practices in site design and storefront architecture. Using it can save Vijay—and Cloud Kicks—lots of time and resources. He doesn’t have to start from scratch and build the new storefront from the ground up. Instead, he can modify SFRA to meet his company’s needs.
+
+To get started using SFRA, Vijay must access the SFRA code repositories, which live in GitHub. In this unit, he sets up a GitHub account, learns which repositories are required for SFRA, and then downloads them.
+
+#### Set Up a GitHub Account
+
+Vijay doesn’t have a GitHub account yet. Here’s where he goes to set one up: github.com/join.
+
+Then he enables two-factor authentication for his GitHub account by following these instructions:
+
+https://help.github.com/articles/configuring-two-factor-authentication-via-a-totp-mobile-app/.
+
+#### Request Access
+
+Now that he has a GitHub account, he needs access to the Salesforce B2C Commerce GitHub repositories.
+
+To get to the B2C Commerce GitHub repositories, you need Account Manager credentials. These credentials are the same ones you use to sign in to the XChange Community Portal. If you don’t know your Account Manager credentials, check with your Salesforce B2C Commerce account manager.
+
+Here’s how Vijay accesses the repositories.
+
+![GitHub Logo](/photo77.png)
+
+#### Which Repositories?
+
+Vijay is in the right place in GitHub to find and download the repositories he needs for SFRA.
+
+Here are some of the repositories he needs.
+
+![GitHub Logo](/photo78.png)
+
+He sees the storefront-reference-architecture repository, which is the latest version of SFRA. There are other branches as well, which change as Salesforce develops new features. The SFRA Versions and Releases page in the Infocenter can help you find the right version.
+
+Not only can you download individual cartridges, but you can also download multiple feature cartridges at once with the All-in-One cartridge (plugin_cartridge_merge), which contains these features.
+
+* plugin-applepay—Apple Pay functionality.
+* plugin_datadownload—General Data Protection Regulation (GDPR) related functionality.
+* plugin_instorepickup—Buy-online-pick-up-in-store functionality.
+* plugin_giftregistry—Gift registry functionality.
+* plugin_productcompare—Functionality to compare various products.
+* plugin_sitemap—Provides sitemap functionality.
+* plugin_wishlist—Provides wishlist functionality.
+
+This makes it easy to install and use several optional SFRA features. You can also disable optional features.
+
+This optional repository is also available.
+
+* eslint-plugin-sitegenesis—Use to lint and test code.
+
+#### Download or Clone the Repositories for SFRA
+
+![GitHub Logo](/photo79.png)
+
+
