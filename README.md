@@ -102,7 +102,10 @@
     - [Join the Partner Community](#join-the-partner-community)
     - [Find Release Information](#find-release-information)
     - [Search the Documentation](#search-the-documentation)
-
+  - [Install and Configure UX Studio]()
+  - [Access the GitHub Repositories]()
+  - [Install and Configure SFRA]()
+  
 
 ## Salesforce User Basics
 
@@ -1704,7 +1707,7 @@ So, how does he get plugged into all that good stuff? In this unit, we follow al
 
 In XChange, he can ask a question or sign up for a class. He can also find information about releases and events, and become part of the B2C Commerce community of developers. In the Infocenter, he can explore product details and learn how B2C Commerce features and technology works.
 
-### Get Started with XChange
+#### Get Started with XChange
 
 Vijay needs credentials to sign in to XChange. He contacts the B2C Commerce account manager for Cloud Kicks, who sends him an email with information on how to get a username and password. If he still needs help accessing XChange, he works with the account manager directly. Once he has his credentials, he logs in and the XChange home page opens. There are lots of great resources to help him get started with XChange. He clicks XChange Help at the top of the XChange home page to go to the Getting Started in XChange page.
 
@@ -1716,7 +1719,7 @@ This page has links to a Getting Started Video, FAQs, and other information abou
 
 Next, he checks out some other resources on the Getting Started page, including the How to Use XChange links.
 
-### Join the B2C Commerce Developer Community
+#### Join the B2C Commerce Developer Community
 
 Vijay wants to know where can he go for help when he’s stuck. Is there a way he can discuss his issues with other developers and share solutions? Working with other developers is a big part of how he gets his work done. Luckily, that’s what the Developer Community on XChange is all about.
 
@@ -1732,13 +1735,13 @@ He clicks Discussion Forums to access the B2C Commerce developer discussion boar
 
 ![GitHub Logo](/photo65.png)
 
-### Join the Partner Community
+#### Join the Partner Community
 
 Although Vijay works for Cloud Kicks, many B2C Commerce developers work for partner organizations. Resources for partners are available though the Salesforce Partner Community, a trusted environment where partners can get answers, share ideas, collaborate, and learn best practices.
 
 Another great resource is the B2C Commerce Chatter group. Partners use this to communicate with the global Salesforce LINK Technology Partner Team and other partners. There's also a Chatter group within the Partner Community called Official: LINK Tech Partner Program for LINK partners.
 
-### Find Release Information
+#### Find Release Information
 
 Vijay is definitely going to want to keep up with new features and bug fixes in B2C Commerce releases. The easiest way to do that is to click Product Release Information on the Welcome To XChange page.
 
@@ -1750,7 +1753,7 @@ This page has links to release notes and webinars that explain what’s new in e
 
 From XChange, he can also access the B2C Commerce release notes. The release notes live on the Salesforce Help and Training Portal, but he can conveniently access them from both places.
 
-### Search the Documentation
+#### Search the Documentation
 
 Vijay has lots of questions. What’s the procedure for connecting to the server? What does this option on the screen mean? Sometimes he just wants to look up something in the documentation.
 
@@ -1762,3 +1765,41 @@ When he wants to find something specific, he searches for it in the Infocenter.
 
 ![GitHub Logo](/photo69.png)
 ![GitHub Logo](/photo70.png)
+
+### Install and Configure UX Studio
+
+Now that Vijay has identified the Salesforce B2C Commerce resources for developers, he’s ready to take the first steps in developing the new storefront. In this unit, we follow along as he gets his local computer ready for the job by downloading the necessary software and configuring the right settings.
+
+Here are the installation and configuration tasks ahead.
+
+* Install Eclipse as the integrated development environment (IDE).
+* Install Java and configure a workspace.
+* Install the UX Studio plug-in.
+* Connect the local system to the B2C Commerce sandbox instance.
+* Get Commerce Cloud Storefront Reference Architecture (SFRA) repositories from GitHub.
+* Install and configure SFRA.
+
+In this unit, we show you steps 1 through 4. We show you steps 5 and 6 in the next units.
+
+#### What's UX Studio?
+
+As with any software development project, Vijay needs to use an integrated development environment (IDE). For this project, Vijay uses UX Studio, a special plug-in that we designed for the Eclipse IDE, just for Salesforce B2C Commerce developers. You can use UX Studio to develop new storefronts, create business processes, and integrate with external applications.
+
+But wait… what if you have a favorite IDE or JavaScript editor that you want to use instead of UX Studio in Eclipse? That’s OK. As long as you’re developing for a newer storefront that uses controllers instead of pipelines, you can use other tools (for instance Propher Debugger for VS Code). Some B2C Commerce developers use Visual Studio Code, Sublime Text, or WebStorm. But keep in mind that if your storefront uses pipelines, you have to use UX Studio.
+
+#### Install Eclipse and Java
+
+Vijay starts by looking at requirements. What versions of Eclipse and Java does he need?
+
+UX Studio requires these versions of the Eclipse IDE for Java EE Developers.
+
+Eclipse 4.5 (Mars)
+Eclipse 4.6 (Neon)
+Vijay doesn’t have Eclipse, so he downloads and installs it from this location: http://www.eclipse.org.
+
+Eclipse is similar to other IDEs Vijay has used. And there’s lots of great documentation to help him get started. You can check it out here: https://www.eclipse.org/documentation
+
+He also needs Java SE Development Kit (JDK) Version 8 on his local computer, so he downloads and install it from this location: http://www.oracle.com.
+
+#### Set Up a Workspace
+
