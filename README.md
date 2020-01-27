@@ -1827,4 +1827,12 @@ Now Vijay opens the Digital Development perspective. This is the perspective you
 
 #### Connect to Your Sandbox
  
+To use UX Studio to develop a storefront, Vijay must create a connection between UX Studio and a B2C Commerce sandbox instance.
 
+In this module, we assume you are a B2C Commerce developer with the proper permissions to perform these tasks. If you’re not a B2C Commerce developer, that’s OK. Read along to learn how your developer would take these steps in a sandbox instance. Don't try to follow our steps in your Trailhead Playground. B2C Commerce isn't available in the Trailhead Playground.
+
+If you have a sandbox instance of B2C Commerce, you can try out these steps in your sandbox. If you don't have a sandbox and you're a customer or partner developer, ask your manager if there is a sandbox that you can use.
+
+Let’s see how Vijay connects UX Studio on his local machine to his B2C Commerce sandbox instance.
+
+![GitHub Logo](/photo76.png)
