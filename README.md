@@ -1683,3 +1683,9 @@ Business Manager groups multiple objects that are replicated together. Spend tim
 
 * Replication moves data from one instance to another, once the data is already in a B2C Commerce database.
 * Import and export moves data to and from external systems, from and to a B2C Commerce Database.
+
+
+## Tools & Resources for Salesforce B2C Commerce Developers
+
+### Explore the Developer Resources 
+
