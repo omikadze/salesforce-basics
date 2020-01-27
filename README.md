@@ -41,8 +41,8 @@
 - [Tools & Resources for Salesforce B2C Commerce Developers](#tools--resources-for-salesforce-b2c-commerce-developers)
   - [Explore the Developer Resources](#explore-the-developer-resources)
   - [Install and Configure UX Studio](#install-and-configure-ux-studio)
-  - [Access the GitHub Repositories]()
-  - [Install and Configure SFRA]()
+  - [Access the GitHub Repositories](#access-the-github-repositories)
+  - [Install and Configure SFRA](#install-and-configure-sfra)
   
 
 ## Salesforce User Basics
