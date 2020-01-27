@@ -1689,3 +1689,69 @@ Business Manager groups multiple objects that are replicated together. Spend tim
 
 ### Explore the Developer Resources 
 
+Vijay Lahiri is a senior developer at Cloud Kicks, a company that specializes in high-end custom sneakers. He wants to develop a new B2C Commerce storefront. But before he gets started, he wants to make sure that he has access to the latest and greatest information about B2C Commerce. He also wants to check out the resources that Salesforce provides especially for developers like him.
+
+![GitHub Logo](/photo60.png)
+
+So, how does he get plugged into all that good stuff? In this unit, we follow along as he learns about XChange, the Commerce Cloud Community Portal, and the Infocenter, the B2C Commerce official documentation portal.
+
+In XChange, he can ask a question or sign up for a class. He can also find information about releases and events, and become part of the B2C Commerce community of developers. In the Infocenter, he can explore product details and learn how B2C Commerce features and technology works.
+
+### Get Started with XChange
+
+Vijay needs credentials to sign in to XChange. He contacts the B2C Commerce account manager for Cloud Kicks, who sends him an email with information on how to get a username and password. If he still needs help accessing XChange, he works with the account manager directly. Once he has his credentials, he logs in and the XChange home page opens. There are lots of great resources to help him get started with XChange. He clicks XChange Help at the top of the XChange home page to go to the Getting Started in XChange page.
+
+![GitHub Logo](/photo61.png)
+
+This page has links to a Getting Started Video, FAQs, and other information about XChange features. Vijay watches the Getting Started Video and pays close attention to the information about the Developer Forum and how to sign up for training classes.
+
+![GitHub Logo](/photo62.png)
+
+Next, he checks out some other resources on the Getting Started page, including the How to Use XChange links.
+
+### Join the B2C Commerce Developer Community
+
+Vijay wants to know where can he go for help when he’s stuck. Is there a way he can discuss his issues with other developers and share solutions? Working with other developers is a big part of how he gets his work done. Luckily, that’s what the Developer Community on XChange is all about.
+
+Vijay clicks Developers on the XChange home page to access the Developer Community page.
+
+![GitHub Logo](/photo63.png)
+
+The Developer Community page is the go-to place for B2C Commerce developer information, with links to conferences, best practices, and a code library.
+
+![GitHub Logo](/photo64.png)
+
+He clicks Discussion Forums to access the B2C Commerce developer discussion board. On the discussion board, he can search the forum, ask a question, or post or respond to a poll.
+
+![GitHub Logo](/photo65.png)
+
+### Join the Partner Community
+
+Although Vijay works for Cloud Kicks, many B2C Commerce developers work for partner organizations. Resources for partners are available though the Salesforce Partner Community, a trusted environment where partners can get answers, share ideas, collaborate, and learn best practices.
+
+Another great resource is the B2C Commerce Chatter group. Partners use this to communicate with the global Salesforce LINK Technology Partner Team and other partners. There's also a Chatter group within the Partner Community called Official: LINK Tech Partner Program for LINK partners.
+
+### Find Release Information
+
+Vijay is definitely going to want to keep up with new features and bug fixes in B2C Commerce releases. The easiest way to do that is to click Product Release Information on the Welcome To XChange page.
+
+![GitHub Logo](/photo66.png)
+
+This page has links to release notes and webinars that explain what’s new in each release. Plus, Vijay can access discussion forums to give Salesforce his feedback about the new features.
+
+![GitHub Logo](/photo67.png)
+
+From XChange, he can also access the B2C Commerce release notes. The release notes live on the Salesforce Help and Training Portal, but he can conveniently access them from both places.
+
+### Search the Documentation
+
+Vijay has lots of questions. What’s the procedure for connecting to the server? What does this option on the screen mean? Sometimes he just wants to look up something in the documentation.
+
+The Salesforce B2C Commerce Infocenter is where he can access all the B2C Commerce documentation. He quickly locates the developer documentation, information about using Business Manager, B2C Commerce APIs, admin tasks, and more.
+
+![GitHub Logo](/photo68.png)
+
+When he wants to find something specific, he searches for it in the Infocenter.
+
+![GitHub Logo](/photo69.png)
+![GitHub Logo](/photo70.png)
