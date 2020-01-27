@@ -94,14 +94,15 @@
   - [Get Started Configuring Your B2C Commerce Sites](#get-started-configuring-your-b2c-commerce-sites)
   - [Learn About Importing and Exporting Data](#learn-about-importing-and-exporting-data)
   - [Learn About B2C Commerce Replication](#learn-about-b2c-commerce-replication)
- 
-- [Explore the Developer Resources](#)
-  - [Get Started with XChange](#)
-  - [Join the B2C Commerce Developer Community]()
-  - [Join the Partner Community]()
-  - [Find Release Information]()
-  - [Search the Documentation]()
-  
+
+- [Tools & Resources for Salesforce B2C Commerce Developers](#tools--resources-for-salesforce-b2c-commerce-developers)
+  - [Explore the Developer Resources](#explore-the-developer-resources)
+    - [Get Started with XChange](#get-started-with-xchange)
+    - [Join the B2C Commerce Developer Community](#join-the-b2c-commerce-developer-community)
+    - [Join the Partner Community](#join-the-partner-community)
+    - [Find Release Information](#find-release-information)
+    - [Search the Documentation](#search-the-documentation)
+
 
 ## Salesforce User Basics
 
